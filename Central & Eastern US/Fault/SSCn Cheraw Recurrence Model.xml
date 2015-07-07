@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FaultSourceSet id="-1" name="SSCn Cheraw Recurrence Model" weight="0.25">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: CEUScm-recur_2014.in -->
+  <Settings>
+    <DefaultMfds>
+      <IncrementalMfd floats="false" m="6.5" rate="0.0" type="SINGLE" weight="1.0"/>
+    </DefaultMfds>
+    <MagUncertainty>
+      <Aleatory count="11" cutoff="6.5" moBalance="true" sigma="0.12"/>
+    </MagUncertainty>
+    <SourceProperties ruptureScaling="NSHM_FAULT_WC94_LENGTH"/>
+  </Settings>
+  <Source id="-1" name="Cheraw CEUS - SSC recur">
+    <IncrementalMfd m="6.8" rate="9.4650000e-05" type="SINGLE" weight="0.3"/>
+    <IncrementalMfd m="7.0" rate="9.4650000e-05" type="SINGLE" weight="0.3"/>
+    <IncrementalMfd m="7.2" rate="9.4650000e-05" type="SINGLE" weight="0.3"/>
+    <IncrementalMfd m="7.4" rate="9.4650000e-05" type="SINGLE" weight="0.1"/>
+    <Geometry depth="0.0" dip="60.0" rake="-90.0" width="17.3205">
+      <Trace>
+-103.21907,38.43641,0.00000
+-103.24243,38.39668,0.00000
+-103.27992,38.35193,0.00000
+-103.35165,38.30460,0.00000
+-103.42916,38.27306,0.00000
+-103.50145,38.22508,0.00000
+-103.58530,38.15085,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+</FaultSourceSet>

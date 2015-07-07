@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GridSourceSet id="-1" name="Charleston Narrow Zone" weight="0.3">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: CEUSchar_2014_n.ssc67.in -->
+  <Settings>
+    <DefaultMfds>
+      <IncrementalMfd floats="false" m="6.7" rate="0.0" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd floats="false" m="6.9" rate="0.0" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd floats="false" m="7.1" rate="0.0" type="SINGLE" weight="0.3"/>
+      <IncrementalMfd floats="false" m="7.3" rate="0.0" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd floats="false" m="7.5" rate="0.0" type="SINGLE" weight="0.1"/>
+    </DefaultMfds>
+    <SourceProperties focalMechMap="[STRIKE_SLIP:1.0,NORMAL:0.0,REVERSE:0.0]" magDepthMap="[10.0::[5.0:1.0]]" maxDepth="22.0" ruptureScaling="NSHM_POINT_WC94_LENGTH" strike="NaN"/>
+  </Settings>
+  <Nodes>
+    <Node rate="0.00011155223" type="SINGLE">-80.2,32.7,0.0</Node>
+    <Node rate="0.00011142708" type="SINGLE">-80.3,32.8,0.0</Node>
+    <Node rate="0.00011142708" type="SINGLE">-80.2,32.8,0.0</Node>
+    <Node rate="0.00011142708" type="SINGLE">-80.1,32.8,0.0</Node>
+    <Node rate="0.00011130157" type="SINGLE">-80.3,32.9,0.0</Node>
+    <Node rate="0.00011130157" type="SINGLE">-80.2,32.9,0.0</Node>
+    <Node rate="0.00011130157" type="SINGLE">-80.1,32.9,0.0</Node>
+    <Node rate="0.00011117574" type="SINGLE">-80.3,33.0,0.0</Node>
+    <Node rate="0.00011117574" type="SINGLE">-80.2,33.0,0.0</Node>
+    <Node rate="0.00011117574" type="SINGLE">-80.1,33.0,0.0</Node>
+    <Node rate="0.00011117574" type="SINGLE">-80.0,33.0,0.0</Node>
+    <Node rate="0.00011104956" type="SINGLE">-80.2,33.1,0.0</Node>
+    <Node rate="0.00011104956" type="SINGLE">-80.1,33.1,0.0</Node>
+    <Node rate="0.00011104956" type="SINGLE">-80.0,33.1,0.0</Node>
+    <Node rate="0.00011092304" type="SINGLE">-80.2,33.2,0.0</Node>
+    <Node rate="0.00011092304" type="SINGLE">-80.1,33.2,0.0</Node>
+    <Node rate="0.00011092304" type="SINGLE">-80.0,33.2,0.0</Node>
+  </Nodes>
+</GridSourceSet>

@@ -1,0 +1,12 @@
+{
+  "name": "NSHMP Western U.S. 2014",
+  "surfaceSpacing": 1.0,
+  "ruptureFloating": "NSHM",
+  "ruptureVariability": false,
+  "pointSourceType": "FINITE",
+  "areaGridScaling": "SCALED_SMALL",
+
+  "exceedanceModel": "TRUNCATION_UPPER_ONLY",
+  "truncationLevel": 3.0,
+  "imts": ["PGA", "SA0P2", "SA1P0"]
+}

@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FaultSourceSet id="-1" name="Bird Model Small Mag" weight="0.1">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: 2014WUSbird.65.in -->
+  <Settings>
+    <DefaultMfds>
+      <IncrementalMfd floats="false" m="6.5" rate="0.0" type="SINGLE" weight="1.0"/>
+    </DefaultMfds>
+    <MagUncertainty>
+      <Epistemic cutoff="6.5" deltas="[-0.2, 0.0, 0.2]" weights="[0.2, 0.6, 0.2]"/>
+      <Aleatory count="11" cutoff="6.5" moBalance="true" sigma="0.12"/>
+    </MagUncertainty>
+    <SourceProperties ruptureScaling="NSHM_FAULT_WC94_LENGTH"/>
+  </Settings>
+  <Source id="4" name="Dutchman Draw 50">
+    <IncrementalMfd m="6.49" rate="0.000158622" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-113.34864,37.00043,0.00000
+-113.36535,36.98705,0.00000
+-113.42887,36.95165,0.00000
+-113.46777,36.93988,0.00000
+-113.50119,36.91886,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="4" name="Dutchman Draw 65">
+    <IncrementalMfd m="6.49" rate="0.000158622" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-113.34864,37.00043,0.00000
+-113.36535,36.98705,0.00000
+-113.42887,36.95165,0.00000
+-113.46777,36.93988,0.00000
+-113.50119,36.91886,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="4" name="Dutchman Draw 35">
+    <IncrementalMfd m="6.49" rate="0.000158622" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-113.34864,37.00043,0.00000
+-113.36535,36.98705,0.00000
+-113.42887,36.95165,0.00000
+-113.46777,36.93988,0.00000
+-113.50119,36.91886,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="8" name="Black Hills 50">
+    <IncrementalMfd m="6.18" rate="0.00042040015" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-114.96812,35.89002,0.00000
+-114.94853,35.92281,0.00000
+-114.91862,35.95794,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="8" name="Black Hills 65">
+    <IncrementalMfd m="6.18" rate="0.00042040015" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-114.96812,35.89002,0.00000
+-114.94853,35.92281,0.00000
+-114.91862,35.95794,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="8" name="Black Hills 35">
+    <IncrementalMfd m="6.18" rate="0.00042040015" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-114.96812,35.89002,0.00000
+-114.94853,35.92281,0.00000
+-114.91862,35.95794,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="11" name="Coyote Spring 50">
+    <IncrementalMfd m="6.45" rate="0.00038617928" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-114.97811,37.19321,0.00000
+-114.97407,37.16769,0.00000
+-114.97704,37.15817,0.00000
+-114.96823,37.11316,0.00000
+-114.97137,37.09636,0.00000
+-114.98413,37.07013,0.00000
+-114.98359,37.05989,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="11" name="Coyote Spring 65">
+    <IncrementalMfd m="6.45" rate="0.00038617928" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-114.97811,37.19321,0.00000
+-114.97407,37.16769,0.00000
+-114.97704,37.15817,0.00000
+-114.96823,37.11316,0.00000
+-114.97137,37.09636,0.00000
+-114.98413,37.07013,0.00000
+-114.98359,37.05989,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="11" name="Coyote Spring 35">
+    <IncrementalMfd m="6.45" rate="0.00038617928" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-114.97811,37.19321,0.00000
+-114.97407,37.16769,0.00000
+-114.97704,37.15817,0.00000
+-114.96823,37.11316,0.00000
+-114.97137,37.09636,0.00000
+-114.98413,37.07013,0.00000
+-114.98359,37.05989,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="14" name="Hiko 50">
+    <IncrementalMfd m="6.46" rate="0.0001646591" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-115.18413,37.67393,0.00000
+-115.21620,37.64078,0.00000
+-115.24567,37.56505,0.00000
+-115.24585,37.54753,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="14" name="Hiko 65">
+    <IncrementalMfd m="6.46" rate="0.0001646591" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-115.18413,37.67393,0.00000
+-115.21620,37.64078,0.00000
+-115.24567,37.56505,0.00000
+-115.24585,37.54753,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="14" name="Hiko 35">
+    <IncrementalMfd m="6.46" rate="0.0001646591" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-115.18413,37.67393,0.00000
+-115.21620,37.64078,0.00000
+-115.24567,37.56505,0.00000
+-115.24585,37.54753,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="16" name="Dunn Glenn 50">
+    <IncrementalMfd m="6.48" rate="0.00038584965" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-117.90430,40.87323,0.00000
+-117.93629,40.86191,0.00000
+-117.94608,40.85382,0.00000
+-117.95371,40.82148,0.00000
+-117.97303,40.78860,0.00000
+-117.97456,40.77081,0.00000
+-117.96692,40.75105,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="16" name="Dunn Glenn 65">
+    <IncrementalMfd m="6.48" rate="0.00038584965" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-117.90430,40.87323,0.00000
+-117.93629,40.86191,0.00000
+-117.94608,40.85382,0.00000
+-117.95371,40.82148,0.00000
+-117.97303,40.78860,0.00000
+-117.97456,40.77081,0.00000
+-117.96692,40.75105,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="16" name="Dunn Glenn 35">
+    <IncrementalMfd m="6.48" rate="0.00038584965" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-117.90430,40.87323,0.00000
+-117.93629,40.86191,0.00000
+-117.94608,40.85382,0.00000
+-117.95371,40.82148,0.00000
+-117.97303,40.78860,0.00000
+-117.97456,40.77081,0.00000
+-117.96692,40.75105,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="30" name="Northern Simpson Park Mountains 50">
+    <IncrementalMfd m="6.37" rate="0.00015082612" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-116.34679,40.08805,0.00000
+-116.37248,40.06218,0.00000
+-116.39323,40.05688,0.00000
+-116.42369,40.05967,0.00000
+-116.45065,40.04861,0.00000
+-116.47598,40.04331,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="30" name="Northern Simpson Park Mountains 65">
+    <IncrementalMfd m="6.37" rate="0.00015082612" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-116.34679,40.08805,0.00000
+-116.37248,40.06218,0.00000
+-116.39323,40.05688,0.00000
+-116.42369,40.05967,0.00000
+-116.45065,40.04861,0.00000
+-116.47598,40.04331,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="30" name="Northern Simpson Park Mountains 35">
+    <IncrementalMfd m="6.37" rate="0.00015082612" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-116.34679,40.08805,0.00000
+-116.37248,40.06218,0.00000
+-116.39323,40.05688,0.00000
+-116.42369,40.05967,0.00000
+-116.45065,40.04861,0.00000
+-116.47598,40.04331,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="53" name="Indian Head">
+    <IncrementalMfd m="6.45" rate="6.4493579e-05" type="SINGLE"/>
+    <Geometry depth="0.0" dip="90.0" rake="0.0" width="15.0">
+      <Trace>
+-118.37451,38.66859,0.00000
+-118.36706,38.64362,0.00000
+-118.35169,38.61559,0.00000
+-118.29797,38.56537,0.00000
+-118.28907,38.55180,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="70" name="Duck Flat 50">
+    <IncrementalMfd m="6.49" rate="0.00058120553" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-119.94858,41.14822,0.00000
+-119.94076,41.11561,0.00000
+-119.94866,41.03511,0.00000
+-119.94382,41.00259,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="70" name="Duck Flat 65">
+    <IncrementalMfd m="6.49" rate="0.00058120553" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-119.94858,41.14822,0.00000
+-119.94076,41.11561,0.00000
+-119.94866,41.03511,0.00000
+-119.94382,41.00259,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="70" name="Duck Flat 35">
+    <IncrementalMfd m="6.49" rate="0.00058120553" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-119.94858,41.14822,0.00000
+-119.94076,41.11561,0.00000
+-119.94866,41.03511,0.00000
+-119.94382,41.00259,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="74" name="Eastern Pine Forest Range 50">
+    <IncrementalMfd m="6.25" rate="0.00036033607" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-118.59017,41.81042,0.00000
+-118.62431,41.83307,0.00000
+-118.68800,41.86586,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="74" name="Eastern Pine Forest Range 65">
+    <IncrementalMfd m="6.25" rate="0.00036033607" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-118.59017,41.81042,0.00000
+-118.62431,41.83307,0.00000
+-118.68800,41.86586,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="74" name="Eastern Pine Forest Range 35">
+    <IncrementalMfd m="6.25" rate="0.00036033607" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-118.59017,41.81042,0.00000
+-118.62431,41.83307,0.00000
+-118.68800,41.86586,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="99" name="Eugene Mountains 50">
+    <IncrementalMfd m="6.24" rate="0.00059783855" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-118.23421,40.87107,0.00000
+-118.23402,40.84826,0.00000
+-118.24409,40.82095,0.00000
+-118.24660,40.78168,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="99" name="Eugene Mountains 65">
+    <IncrementalMfd m="6.24" rate="0.00059783855" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-118.23421,40.87107,0.00000
+-118.23402,40.84826,0.00000
+-118.24409,40.82095,0.00000
+-118.24660,40.78168,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="99" name="Eugene Mountains 35">
+    <IncrementalMfd m="6.24" rate="0.00059783855" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-118.23421,40.87107,0.00000
+-118.23402,40.84826,0.00000
+-118.24409,40.82095,0.00000
+-118.24660,40.78168,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="103" name="Peavine Peak 50">
+    <IncrementalMfd m="6.36" rate="0.0008333" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-119.91092,39.58701,0.00000
+-119.91056,39.59420,0.00000
+-119.91846,39.60579,0.00000
+-119.94335,39.62573,0.00000
+-119.96375,39.63319,0.00000
+-119.97444,39.63238,0.00000
+-119.99798,39.66849,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="103" name="Peavine Peak 65">
+    <IncrementalMfd m="6.36" rate="0.0008333" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-119.91092,39.58701,0.00000
+-119.91056,39.59420,0.00000
+-119.91846,39.60579,0.00000
+-119.94335,39.62573,0.00000
+-119.96375,39.63319,0.00000
+-119.97444,39.63238,0.00000
+-119.99798,39.66849,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="103" name="Peavine Peak 35">
+    <IncrementalMfd m="6.36" rate="0.0008333" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-119.91092,39.58701,0.00000
+-119.91056,39.59420,0.00000
+-119.91846,39.60579,0.00000
+-119.94335,39.62573,0.00000
+-119.96375,39.63319,0.00000
+-119.97444,39.63238,0.00000
+-119.99798,39.66849,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="106" name="Indian Hill 50">
+    <IncrementalMfd m="6.13" rate="0.0002160642" type="SINGLE" weight="0.15"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-119.82870,39.04941,0.00000
+-119.81972,39.05893,0.00000
+-119.80175,39.06379,0.00000
+-119.78711,39.06334,0.00000
+-119.78989,39.08346,0.00000
+-119.77839,39.09487,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="106" name="Indian Hill 65">
+    <IncrementalMfd m="6.13" rate="0.0002160642" type="SINGLE" weight="0.050000001"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-119.82870,39.04941,0.00000
+-119.81972,39.05893,0.00000
+-119.80175,39.06379,0.00000
+-119.78711,39.06334,0.00000
+-119.78989,39.08346,0.00000
+-119.77839,39.09487,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="106" name="Indian Hill 35">
+    <IncrementalMfd m="6.13" rate="0.0002160642" type="SINGLE" weight="0.050000001"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-119.82870,39.04941,0.00000
+-119.81972,39.05893,0.00000
+-119.80175,39.06379,0.00000
+-119.78711,39.06334,0.00000
+-119.78989,39.08346,0.00000
+-119.77839,39.09487,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="107" name="Carson City 50">
+    <IncrementalMfd m="6.48" rate="0.00074437668" type="SINGLE" weight="0.15"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-119.81882,39.06522,0.00000
+-119.79124,39.11401,0.00000
+-119.77731,39.12155,0.00000
+-119.76941,39.16917,0.00000
+-119.76042,39.17213,0.00000
+-119.74659,39.19342,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="107" name="Carson City 65">
+    <IncrementalMfd m="6.48" rate="0.00074437668" type="SINGLE" weight="0.050000001"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-119.81882,39.06522,0.00000
+-119.79124,39.11401,0.00000
+-119.77731,39.12155,0.00000
+-119.76941,39.16917,0.00000
+-119.76042,39.17213,0.00000
+-119.74659,39.19342,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="107" name="Carson City 35">
+    <IncrementalMfd m="6.48" rate="0.00074437668" type="SINGLE" weight="0.050000001"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-119.81882,39.06522,0.00000
+-119.79124,39.11401,0.00000
+-119.77731,39.12155,0.00000
+-119.76941,39.16917,0.00000
+-119.76042,39.17213,0.00000
+-119.74659,39.19342,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="117" name="Northern Butte Valley 50">
+    <IncrementalMfd m="6.49" rate="0.00015968664" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-114.94562,40.36567,0.00000
+-114.96493,40.30943,0.00000
+-114.97562,40.29703,0.00000
+-114.97482,40.28391,0.00000
+-114.98532,40.25723,0.00000
+-115.01641,40.23145,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="117" name="Northern Butte Valley 65">
+    <IncrementalMfd m="6.49" rate="0.00015968664" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-114.94562,40.36567,0.00000
+-114.96493,40.30943,0.00000
+-114.97562,40.29703,0.00000
+-114.97482,40.28391,0.00000
+-114.98532,40.25723,0.00000
+-115.01641,40.23145,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="117" name="Northern Butte Valley 35">
+    <IncrementalMfd m="6.49" rate="0.00015968664" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-114.94562,40.36567,0.00000
+-114.96493,40.30943,0.00000
+-114.97562,40.29703,0.00000
+-114.97482,40.28391,0.00000
+-114.98532,40.25723,0.00000
+-115.01641,40.23145,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="121" name="Eglington 50">
+    <IncrementalMfd m="6.29" rate="7.1000002e-05" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-115.22067,36.23076,0.00000
+-115.21735,36.24720,0.00000
+-115.20738,36.26185,0.00000
+-115.18806,36.26661,0.00000
+-115.15536,36.28952,0.00000
+-115.14907,36.30291,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="121" name="Eglington 65">
+    <IncrementalMfd m="6.29" rate="7.1000002e-05" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-115.22067,36.23076,0.00000
+-115.21735,36.24720,0.00000
+-115.20738,36.26185,0.00000
+-115.18806,36.26661,0.00000
+-115.15536,36.28952,0.00000
+-115.14907,36.30291,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="121" name="Eglington 35">
+    <IncrementalMfd m="6.29" rate="7.1000002e-05" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-115.22067,36.23076,0.00000
+-115.21735,36.24720,0.00000
+-115.20738,36.26185,0.00000
+-115.18806,36.26661,0.00000
+-115.15536,36.28952,0.00000
+-115.14907,36.30291,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="122" name="Mount Irish Range 50">
+    <IncrementalMfd m="6.32" rate="8.1778468e-05" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-115.43029,37.62883,0.00000
+-115.44511,37.58553,0.00000
+-115.45958,37.56388,0.00000
+-115.45455,37.52740,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="122" name="Mount Irish Range 65">
+    <IncrementalMfd m="6.32" rate="8.1778468e-05" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-115.43029,37.62883,0.00000
+-115.44511,37.58553,0.00000
+-115.45958,37.56388,0.00000
+-115.45455,37.52740,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="122" name="Mount Irish Range 35">
+    <IncrementalMfd m="6.32" rate="8.1778468e-05" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-115.43029,37.62883,0.00000
+-115.44511,37.58553,0.00000
+-115.45958,37.56388,0.00000
+-115.45455,37.52740,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="127" name="La Canada del Amagre 50">
+    <IncrementalMfd rate="0.00012467269" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-106.24306,36.02293,0.00000
+-106.23102,36.06929,0.00000
+-106.23363,36.10531,0.00000
+-106.21206,36.17009,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="127" name="La Canada del Amagre 65">
+    <IncrementalMfd rate="0.00012467269" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-106.24306,36.02293,0.00000
+-106.23102,36.06929,0.00000
+-106.23363,36.10531,0.00000
+-106.21206,36.17009,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="127" name="La Canada del Amagre 35">
+    <IncrementalMfd rate="0.00012467269" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-106.24306,36.02293,0.00000
+-106.23102,36.06929,0.00000
+-106.23363,36.10531,0.00000
+-106.21206,36.17009,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="136" name="Sawyer Canyon 50">
+    <IncrementalMfd m="6.15" rate="0.00010523261" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-106.25455,35.90830,0.00000
+-106.25429,35.93336,0.00000
+-106.26614,35.94711,0.00000
+-106.28169,35.97873,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="136" name="Sawyer Canyon 65">
+    <IncrementalMfd m="6.15" rate="0.00010523261" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-106.25455,35.90830,0.00000
+-106.25429,35.93336,0.00000
+-106.26614,35.94711,0.00000
+-106.28169,35.97873,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="136" name="Sawyer Canyon 35">
+    <IncrementalMfd m="6.15" rate="0.00010523261" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-106.25455,35.90830,0.00000
+-106.25429,35.93336,0.00000
+-106.26614,35.94711,0.00000
+-106.28169,35.97873,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="144" name="East Paradise 50">
+    <IncrementalMfd m="6.38" rate="1.8576791e-05" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-106.67746,35.26396,0.00000
+-106.68338,35.21196,0.00000
+-106.68790,35.14574,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="144" name="East Paradise 65">
+    <IncrementalMfd m="6.38" rate="1.8576791e-05" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-106.67746,35.26396,0.00000
+-106.68338,35.21196,0.00000
+-106.68790,35.14574,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="144" name="East Paradise 35">
+    <IncrementalMfd m="6.38" rate="1.8576791e-05" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-106.67746,35.26396,0.00000
+-106.68338,35.21196,0.00000
+-106.68790,35.14574,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="2" name="West Valley 50">
+    <IncrementalMfd rate="0.0004814874" type="SINGLE" weight="0.3"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-111.95078,40.65803,0.00000
+-111.95377,40.67005,0.00000
+-111.95878,40.68806,0.00000
+-111.96677,40.70002,0.00000
+-111.97276,40.71705,0.00000
+-111.98875,40.73408,0.00000
+-111.98875,40.74506,0.00000
+-112.01780,40.79707,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="2" name="West Valley 65">
+    <IncrementalMfd rate="0.0004814874" type="SINGLE" weight="0.1"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-111.95078,40.65803,0.00000
+-111.95377,40.67005,0.00000
+-111.95878,40.68806,0.00000
+-111.96677,40.70002,0.00000
+-111.97276,40.71705,0.00000
+-111.98875,40.73408,0.00000
+-111.98875,40.74506,0.00000
+-112.01780,40.79707,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="2" name="West Valley 35">
+    <IncrementalMfd rate="0.0004814874" type="SINGLE" weight="0.1"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-111.95078,40.65803,0.00000
+-111.95377,40.67005,0.00000
+-111.95878,40.68806,0.00000
+-111.96677,40.70002,0.00000
+-111.97276,40.71705,0.00000
+-111.98875,40.73408,0.00000
+-111.98875,40.74506,0.00000
+-112.01780,40.79707,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="200" name="Sweetwater 50">
+    <IncrementalMfd m="6.38" rate="0.00018453199" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-112.27483,45.03990,0.00000
+-112.40781,45.11096,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="200" name="Sweetwater 65">
+    <IncrementalMfd m="6.38" rate="0.00018453199" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-112.27483,45.03990,0.00000
+-112.40781,45.11096,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="200" name="Sweetwater 35">
+    <IncrementalMfd m="6.38" rate="0.00018453199" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-112.27483,45.03990,0.00000
+-112.40781,45.11096,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="201" name="Red Rock Hills 50">
+    <IncrementalMfd m="6.27" rate="0.00039724528" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-112.79269,44.94772,0.00000
+-112.75200,44.90801,0.00000
+-112.70627,44.87360,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="201" name="Red Rock Hills 65">
+    <IncrementalMfd m="6.27" rate="0.00039724528" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-112.79269,44.94772,0.00000
+-112.75200,44.90801,0.00000
+-112.70627,44.87360,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="201" name="Red Rock Hills 35">
+    <IncrementalMfd m="6.27" rate="0.00039724528" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-112.79269,44.94772,0.00000
+-112.75200,44.90801,0.00000
+-112.70627,44.87360,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="204" name="Georgia Gulch 50">
+    <IncrementalMfd m="6.42" rate="0.00063519966" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-112.26820,45.62593,0.00000
+-112.25507,45.58343,0.00000
+-112.26118,45.56088,0.00000
+-112.24834,45.53770,0.00000
+-112.24016,45.50015,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="204" name="Georgia Gulch 65">
+    <IncrementalMfd m="6.42" rate="0.00063519966" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-112.26820,45.62593,0.00000
+-112.25507,45.58343,0.00000
+-112.26118,45.56088,0.00000
+-112.24834,45.53770,0.00000
+-112.24016,45.50015,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="204" name="Georgia Gulch 35">
+    <IncrementalMfd m="6.42" rate="0.00063519966" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-112.26820,45.62593,0.00000
+-112.25507,45.58343,0.00000
+-112.26118,45.56088,0.00000
+-112.24834,45.53770,0.00000
+-112.24016,45.50015,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="207" name="Thompson Valley 50">
+    <IncrementalMfd m="6.22" rate="0.00016409901" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-114.97842,47.76645,0.00000
+-114.94868,47.68272,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="207" name="Thompson Valley 65">
+    <IncrementalMfd m="6.22" rate="0.00016409901" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-114.97842,47.76645,0.00000
+-114.94868,47.68272,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="207" name="Thompson Valley 35">
+    <IncrementalMfd m="6.22" rate="0.00016409901" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-114.97842,47.76645,0.00000
+-114.94868,47.68272,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="208" name="Jocko 50">
+    <IncrementalMfd m="6.47" rate="0.00036139428" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-113.97453,47.14798,0.00000
+-113.98396,47.12525,0.00000
+-114.04640,47.05608,0.00000
+-114.05458,47.01825,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="208" name="Jocko 65">
+    <IncrementalMfd m="6.47" rate="0.00036139428" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-113.97453,47.14798,0.00000
+-113.98396,47.12525,0.00000
+-114.04640,47.05608,0.00000
+-114.05458,47.01825,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="208" name="Jocko 35">
+    <IncrementalMfd m="6.47" rate="0.00036139428" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-113.97453,47.14798,0.00000
+-113.98396,47.12525,0.00000
+-114.04640,47.05608,0.00000
+-114.05458,47.01825,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="210" name="Helvetia">
+    <IncrementalMfd m="6.4" rate="7.9303078e-05" type="SINGLE"/>
+    <Geometry depth="0.0" dip="60.0" rake="90.0" width="17.32051">
+      <Trace>
+-122.89808,45.52135,0.00000
+-122.96223,45.63545,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="231" name="Paulina Marsh 50">
+    <IncrementalMfd m="6.26" rate="0.00013331037" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-121.03912,43.23120,0.00000
+-121.00515,43.18924,0.00000
+-120.99725,43.17613,0.00000
+-120.99518,43.15771,0.00000
+-120.98421,43.14855,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="231" name="Paulina Marsh 65">
+    <IncrementalMfd m="6.26" rate="0.00013331037" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-121.03912,43.23120,0.00000
+-121.00515,43.18924,0.00000
+-120.99725,43.17613,0.00000
+-120.99518,43.15771,0.00000
+-120.98421,43.14855,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="231" name="Paulina Marsh 35">
+    <IncrementalMfd m="6.26" rate="0.00013331037" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-121.03912,43.23120,0.00000
+-121.00515,43.18924,0.00000
+-120.99725,43.17613,0.00000
+-120.99518,43.15771,0.00000
+-120.98421,43.14855,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="241" name="Mount Hood 50">
+    <IncrementalMfd m="6.29" rate="8.5119129e-05" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-121.80624,45.33090,0.00000
+-121.81756,45.32901,0.00000
+-121.83058,45.33431,0.00000
+-121.85808,45.35453,0.00000
+-121.91854,45.38588,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="241" name="Mount Hood 65">
+    <IncrementalMfd m="6.29" rate="8.5119129e-05" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-121.80624,45.33090,0.00000
+-121.81756,45.32901,0.00000
+-121.83058,45.33431,0.00000
+-121.85808,45.35453,0.00000
+-121.91854,45.38588,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="241" name="Mount Hood 35">
+    <IncrementalMfd m="6.29" rate="8.5119129e-05" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-121.80624,45.33090,0.00000
+-121.81756,45.32901,0.00000
+-121.83058,45.33431,0.00000
+-121.85808,45.35453,0.00000
+-121.91854,45.38588,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="244" name="Bolton">
+    <IncrementalMfd m="6.19" rate="6.5513144e-05" type="SINGLE"/>
+    <Geometry depth="0.0" dip="60.0" rake="90.0" width="17.32051">
+      <Trace>
+-122.69009,45.40879,0.00000
+-122.66305,45.40232,0.00000
+-122.63232,45.37447,0.00000
+-122.61615,45.36495,0.00000
+-122.60034,45.36153,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="250" name="Waldport">
+    <IncrementalMfd m="6.43" rate="0.00044308414" type="SINGLE"/>
+    <Geometry depth="0.0" dip="60.0" rake="90.0" width="17.32051">
+      <Trace>
+-124.08981,44.33863,0.00000
+-124.06519,44.42164,0.00000
+-124.06142,44.45119,0.00000
+-124.05190,44.46620,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="251" name="South Slough">
+    <IncrementalMfd m="6.29" rate="0.00055933389" type="SINGLE"/>
+    <Geometry depth="0.0" dip="60.0" rake="90.0" width="17.32051">
+      <Trace>
+-124.29931,43.28849,0.00000
+-124.31117,43.27761,0.00000
+-124.33597,43.19487,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="278" name="Petersen Mountain 2 50">
+    <IncrementalMfd m="6.49" rate="0.00073816488" type="SINGLE" weight="0.6"/>
+    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
+      <Trace>
+-119.93042,39.75671,0.00000
+-119.94228,39.77387,0.00000
+-119.94138,39.78654,0.00000
+-119.93095,39.80415,0.00000
+-119.93787,39.82769,0.00000
+-119.94470,39.88626,0.00000
+-119.94075,39.89803,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="278" name="Petersen Mountain 2 65">
+    <IncrementalMfd m="6.49" rate="0.00073816488" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
+      <Trace>
+-119.93042,39.75671,0.00000
+-119.94228,39.77387,0.00000
+-119.94138,39.78654,0.00000
+-119.93095,39.80415,0.00000
+-119.93787,39.82769,0.00000
+-119.94470,39.88626,0.00000
+-119.94075,39.89803,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="278" name="Petersen Mountain 2 35">
+    <IncrementalMfd m="6.49" rate="0.00073816488" type="SINGLE" weight="0.2"/>
+    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
+      <Trace>
+-119.93042,39.75671,0.00000
+-119.94228,39.77387,0.00000
+-119.94138,39.78654,0.00000
+-119.93095,39.80415,0.00000
+-119.93787,39.82769,0.00000
+-119.94470,39.88626,0.00000
+-119.94075,39.89803,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="282" name="Sandy River">
+    <IncrementalMfd rate="0.00076957326" type="SINGLE"/>
+    <Geometry depth="0.0" dip="90.0" rake="0.0" width="15.0">
+      <Trace>
+-122.38266,45.54615,0.00000
+-122.23415,45.43916,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+</FaultSourceSet>

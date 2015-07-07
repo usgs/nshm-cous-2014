@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ClusterSourceSet id="-1" name="SSCn New Madrid" weight="0.45">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: NMFS_RLME_clu.in -->
+  <Settings>
+    <DefaultMfds>
+      <IncrementalMfd floats="false" m="0.0" rate="0.002657" type="SINGLE" weight="1.0"/>
+    </DefaultMfds>
+    <SourceProperties ruptureScaling="NSHM_FAULT_WC94_LENGTH"/>
+  </Settings>
+  <Cluster id="-1" name="NMFS RLME 1" weight="0.294">
+    <Source id="-1" name="BA-BL Section">
+      <IncrementalMfd m="7.9" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.7" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-90.37367,35.55509,0.00000
+-90.09724,35.80379,0.00000
+-89.75166,36.43141,0.00000
+-89.62092,36.56530,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="NMN_S Section">
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.0" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-89.62092,36.56530,0.00000
+-89.28820,36.99460,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="RFT_S Section">
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.4" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.3" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="40.0" rake="0.0" width="15.0">
+        <Trace>
+-89.59054,36.56625,0.00000
+-89.43769,36.46467,0.00000
+-89.41396,36.33081,0.00000
+-89.34903,36.22347,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+  </Cluster>
+  <Cluster id="-1" name="NMFS RLME 2" weight="0.126">
+    <Source id="-1" name="BA-BL Section">
+      <IncrementalMfd m="7.9" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.7" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-90.37367,35.55509,0.00000
+-90.09724,35.80379,0.00000
+-89.75166,36.43141,0.00000
+-89.62092,36.56530,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="NMN_S Section">
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.0" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-89.62092,36.56530,0.00000
+-89.28820,36.99460,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="RFT_L Section">
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.4" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.3" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="40.0" rake="0.0" width="15.0">
+        <Trace>
+-89.89813,36.56910,0.00000
+-89.59054,36.56625,0.00000
+-89.43769,36.46467,0.00000
+-89.41396,36.33081,0.00000
+-89.34903,36.22347,0.00000
+-89.30000,36.15000,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+  </Cluster>
+  <Cluster id="-1" name="NMFS RLME 3" weight="0.054">
+    <Source id="-1" name="BA-BL Section">
+      <IncrementalMfd m="7.9" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.7" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-90.37367,35.55509,0.00000
+-90.09724,35.80379,0.00000
+-89.75166,36.43141,0.00000
+-89.62092,36.56530,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="NMN_L Section">
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.0" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-89.62092,36.56530,0.00000
+-89.28820,36.99460,0.00000
+-89.02000,37.27000,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="RFT_L Section">
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.4" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.3" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="40.0" rake="0.0" width="15.0">
+        <Trace>
+-89.89813,36.56910,0.00000
+-89.59054,36.56625,0.00000
+-89.43769,36.46467,0.00000
+-89.41396,36.33081,0.00000
+-89.34903,36.22347,0.00000
+-89.30000,36.15000,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+  </Cluster>
+  <Cluster id="-1" name="NMFS RLME 4" weight="0.126">
+    <Source id="-1" name="BA-BL Section">
+      <IncrementalMfd m="7.9" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.7" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-90.37367,35.55509,0.00000
+-90.09724,35.80379,0.00000
+-89.75166,36.43141,0.00000
+-89.62092,36.56530,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="NMN_L Section">
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.0" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-89.62092,36.56530,0.00000
+-89.28820,36.99460,0.00000
+-89.02000,37.27000,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="RFT_S Section">
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.4" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.3" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="40.0" rake="0.0" width="15.0">
+        <Trace>
+-89.59054,36.56625,0.00000
+-89.43769,36.46467,0.00000
+-89.41396,36.33081,0.00000
+-89.34903,36.22347,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+  </Cluster>
+  <Cluster id="-1" name="NMFS RLME 5" weight="0.196">
+    <Source id="-1" name="BA-BFZ Section">
+      <IncrementalMfd m="7.9" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.7" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-90.37367,35.55509,0.00000
+-90.09724,35.80379,0.00000
+-89.48480,36.29760,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="NMN_S Section">
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.0" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-89.62092,36.56530,0.00000
+-89.28820,36.99460,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="RFT_S Section">
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.4" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.3" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="40.0" rake="0.0" width="15.0">
+        <Trace>
+-89.59054,36.56625,0.00000
+-89.43769,36.46467,0.00000
+-89.41396,36.33081,0.00000
+-89.34903,36.22347,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+  </Cluster>
+  <Cluster id="-1" name="NMFS RLME 6" weight="0.084">
+    <Source id="-1" name="BA-BFZ Section">
+      <IncrementalMfd m="7.9" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.7" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-90.37367,35.55509,0.00000
+-90.09724,35.80379,0.00000
+-89.48480,36.29760,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="NMN_S Section">
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.0" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-89.62092,36.56530,0.00000
+-89.28820,36.99460,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="RFT_L Section">
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.4" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.3" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="40.0" rake="0.0" width="15.0">
+        <Trace>
+-89.89813,36.56910,0.00000
+-89.59054,36.56625,0.00000
+-89.43769,36.46467,0.00000
+-89.41396,36.33081,0.00000
+-89.34903,36.22347,0.00000
+-89.30000,36.15000,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+  </Cluster>
+  <Cluster id="-1" name="NMFS RLME 7" weight="0.084">
+    <Source id="-1" name="BA-BFZ Section">
+      <IncrementalMfd m="7.9" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.7" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-90.37367,35.55509,0.00000
+-90.09724,35.80379,0.00000
+-89.48480,36.29760,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="NMN_L Section">
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.0" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-89.62092,36.56530,0.00000
+-89.28820,36.99460,0.00000
+-89.02000,37.27000,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="RFT_S Section">
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.4" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.3" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="40.0" rake="0.0" width="15.0">
+        <Trace>
+-89.59054,36.56625,0.00000
+-89.43769,36.46467,0.00000
+-89.41396,36.33081,0.00000
+-89.34903,36.22347,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+  </Cluster>
+  <Cluster id="-1" name="NMFS RLME 8" weight="0.036">
+    <Source id="-1" name="BA-BFZ Section">
+      <IncrementalMfd m="7.9" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.7" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-90.37367,35.55509,0.00000
+-90.09724,35.80379,0.00000
+-89.48480,36.29760,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="NMN_L Section">
+      <IncrementalMfd m="7.6" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.2" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.0" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="90.0" rake="0.0" width="15.0">
+        <Trace>
+-89.62092,36.56530,0.00000
+-89.28820,36.99460,0.00000
+-89.02000,37.27000,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="RFT_L Section">
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.167"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.4" type="SINGLE" weight="0.083"/>
+      <IncrementalMfd m="7.3" type="SINGLE" weight="0.25"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.083"/>
+      <Geometry depth="10.0" dip="40.0" rake="0.0" width="15.0">
+        <Trace>
+-89.89813,36.56910,0.00000
+-89.59054,36.56625,0.00000
+-89.43769,36.46467,0.00000
+-89.41396,36.33081,0.00000
+-89.34903,36.22347,0.00000
+-89.30000,36.15000,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+  </Cluster>
+</ClusterSourceSet>

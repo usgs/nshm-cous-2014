@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SubductionSourceSet id="-1" name="sub2_ch_bot.in" weight="0.18">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: sub2_ch_bot.in -->
+  <Settings>
+    <SourceProperties ruptureScaling="NSHM_SUB_GEOMAT_LENGTH"/>
+  </Settings>
+  <Source id="-1" name="Cascadia Megathrust - Goldfinger Case C Characteristic">
+    <IncrementalMfd floats="false" m="8.92" rate="0.0003913" type="SINGLE" weight="0.333"/>
+    <IncrementalMfd floats="false" m="8.55" rate="0.0003913" type="SINGLE" weight="0.334"/>
+    <IncrementalMfd floats="false" m="8.65" rate="0.0003913" type="SINGLE" weight="0.333"/>
+    <Geometry rake="90.0">
+      <Trace>
+-125.09899,40.35467,6.74507
+-125.08518,41.21360,5.00000
+-125.04685,42.09936,5.00000
+-125.28921,42.95745,5.00000
+-125.41145,43.70000,5.00000
+-125.42693,43.84118,5.00000
+-125.49976,44.71223,5.00000
+-125.52694,45.00000,5.00000
+</Trace>
+      <LowerTrace>
+-122.94522,40.37608,37.83032
+-123.32929,41.21481,29.25479
+-123.66163,42.11925,27.89170
+-123.80901,42.99611,26.80524
+-123.78006,43.70000,28.55160
+-123.76421,43.88167,29.48059
+-123.73402,44.75677,30.30617
+-123.70227,45.00000,30.99767
+</LowerTrace>
+    </Geometry>
+  </Source>
+</SubductionSourceSet>

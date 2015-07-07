@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GridSourceSet id="-1" name="shear3_2014.in" weight="1.0">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: shear3_2014.in -->
+  <Settings>
+    <DefaultMfds>
+      <IncrementalMfd a="0.0" b="0.8" dMag="0.1" mMax="7.55" mMin="6.55" type="GR" weight="1.0"/>
+    </DefaultMfds>
+    <SourceProperties focalMechMap="[STRIKE_SLIP:1.0,NORMAL:0.0,REVERSE:0.0]" magDepthMap="[6.5::[5.0:1.0]; 10.0::[1.0:1.0]]" maxDepth="14.0" ruptureScaling="NSHM_POINT_WC94_LENGTH" strike="335.0"/>
+  </Settings>
+  <Nodes>
+    <Node a="0.71428859" type="GR">-119.9,40.0,0.0</Node>
+    <Node a="0.71324164" type="GR">-119.9,40.1,0.0</Node>
+    <Node a="0.71324164" type="GR">-119.8,40.1,0.0</Node>
+    <Node a="0.71219224" type="GR">-119.9,40.2,0.0</Node>
+    <Node a="0.71219224" type="GR">-119.8,40.2,0.0</Node>
+    <Node a="0.71114069" type="GR">-119.9,40.3,0.0</Node>
+    <Node a="0.710087" type="GR">-119.9,40.4,0.0</Node>
+  </Nodes>
+</GridSourceSet>

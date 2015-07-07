@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FaultSourceSet id="-1" name="SSCn Reelfoot" weight="0.025">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: NMFS_RFT.RLME.in -->
+  <Settings>
+    <DefaultMfds>
+      <IncrementalMfd floats="false" m="6.5" rate="0.0" type="SINGLE" weight="1.0"/>
+    </DefaultMfds>
+    <SourceProperties ruptureScaling="NSHM_FAULT_WC94_LENGTH"/>
+  </Settings>
+  <Source id="-1" name="RFT_S">
+    <IncrementalMfd m="7.8" rate="0.000499" type="SINGLE" weight="0.1169"/>
+    <IncrementalMfd m="7.7" rate="0.000499" type="SINGLE" weight="0.1169"/>
+    <IncrementalMfd m="7.8" rate="0.000499" type="SINGLE" weight="0.175"/>
+    <IncrementalMfd m="7.4" rate="0.000499" type="SINGLE" weight="0.0581"/>
+    <IncrementalMfd m="7.3" rate="0.000499" type="SINGLE" weight="0.175"/>
+    <IncrementalMfd m="7.1" rate="0.000499" type="SINGLE" weight="0.0581"/>
+    <Geometry depth="10.0" dip="40.0" rake="0.0" width="15.0">
+      <Trace>
+-89.59054,36.56625,0.00000
+-89.43769,36.46467,0.00000
+-89.41396,36.33081,0.00000
+-89.34903,36.22347,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="-1" name="RFT_L">
+    <IncrementalMfd m="7.8" rate="0.000499" type="SINGLE" weight="0.0501"/>
+    <IncrementalMfd m="7.7" rate="0.000499" type="SINGLE" weight="0.0501"/>
+    <IncrementalMfd m="7.8" rate="0.000499" type="SINGLE" weight="0.075"/>
+    <IncrementalMfd m="7.4" rate="0.000499" type="SINGLE" weight="0.0249"/>
+    <IncrementalMfd m="7.3" rate="0.000499" type="SINGLE" weight="0.075"/>
+    <IncrementalMfd m="7.1" rate="0.000499" type="SINGLE" weight="0.0249"/>
+    <Geometry depth="10.0" dip="40.0" rake="0.0" width="15.0">
+      <Trace>
+-89.89813,36.56910,0.00000
+-89.59054,36.56625,0.00000
+-89.43769,36.46467,0.00000
+-89.41396,36.33081,0.00000
+-89.34903,36.22347,0.00000
+-89.30000,36.15000,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+</FaultSourceSet>
