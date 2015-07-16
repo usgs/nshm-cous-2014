@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FaultSourceSet id="-1" name="SSCn Meers Full Rupture" weight="0.5">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: CEUScm-meers_2014.in -->
+  <Settings>
+    <DefaultMfds>
+      <IncrementalMfd floats="false" m="6.5" rate="0.0" type="SINGLE" weight="1.0"/>
+    </DefaultMfds>
+    <MagUncertainty>
+      <Aleatory count="11" cutoff="6.5" moBalance="true" sigma="0.12"/>
+    </MagUncertainty>
+    <SourceProperties ruptureScaling="NSHM_FAULT_WC94_LENGTH"/>
+  </Settings>
+  <Source id="-1" name="Meers CEUS - SSC">
+    <IncrementalMfd m="6.6" rate="0.000647" type="SINGLE" weight="0.1"/>
+    <IncrementalMfd m="6.7" rate="0.000647" type="SINGLE" weight="0.45"/>
+    <IncrementalMfd m="6.9" rate="0.000647" type="SINGLE" weight="0.3"/>
+    <IncrementalMfd m="7.3" rate="0.000647" type="SINGLE" weight="0.1"/>
+    <IncrementalMfd m="7.4" rate="0.000647" type="SINGLE" weight="0.05"/>
+    <Geometry depth="0.0" dip="89.0" rake="0.0" width="15.0">
+      <Trace>
+-98.63905,34.84744,0.00000
+-98.51853,34.79631,0.00000
+-98.42549,34.76286,0.00000
+-98.36494,34.73745,0.00000
+-98.31908,34.72712,0.00000
+-98.29991,34.70879,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+</FaultSourceSet>

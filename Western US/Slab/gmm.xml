@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GroundMotionModels>
+  <!-- This model is an example and for review purposes only -->
+  <ModelSet maxDistance="300.0">
+    <Model id="AB_03_GLOB_SLAB_LOW_SAT" weight="0.1665"/>
+    <Model id="AB_03_CASC_SLAB_LOW_SAT" weight="0.1665"/>
+    <Model id="BCHYDRO_12_SLAB" weight="0.333"/>
+    <Model id="ZHAO_06_SLAB" weight="0.334"/>
+  </ModelSet>
+</GroundMotionModels>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FaultSourceSet id="-1" name="SSCn Cheraw Partial Rupture" weight="0.08325">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: CEUScm-srgr_2014.in -->
+  <Settings>
+    <DefaultMfds>
+      <IncrementalMfd a="0.0" b="0.8" dMag="0.1" mMax="7.5" mMin="6.55" type="GR" weight="1.0"/>
+    </DefaultMfds>
+    <SourceProperties ruptureScaling="NSHM_FAULT_WC94_LENGTH"/>
+  </Settings>
+  <Source id="-1" name="Cheraw CEUS - SSC partial">
+    <IncrementalMfd a="2.10117" b="1.0" dMag="0.1125" mMax="7.34385" mMin="6.55625" type="GR"/>
+    <Geometry depth="0.0" dip="50.0" rake="0.0" width="19.58112">
+      <Trace>
+-103.21907,38.43641,0.00000
+-103.24242,38.39668,0.00000
+-103.27992,38.35193,0.00000
+-103.35165,38.30460,0.00000
+-103.42915,38.27306,0.00000
+-103.50145,38.22507,0.00000
+-103.58530,38.15085,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+</FaultSourceSet>

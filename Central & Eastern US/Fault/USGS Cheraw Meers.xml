@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FaultSourceSet id="-1" name="USGS Cheraw Meers" weight="0.5">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: CEUScm2014.in -->
+  <Settings>
+    <DefaultMfds>
+      <IncrementalMfd floats="false" m="6.5" rate="0.0" type="SINGLE" weight="1.0"/>
+      <IncrementalMfd a="0.0" b="0.8" dMag="0.1" mMax="7.5" mMin="6.55" type="GR" weight="1.0"/>
+    </DefaultMfds>
+    <MagUncertainty>
+      <Epistemic cutoff="6.5" deltas="[-0.2, 0.0, 0.2]" weights="[0.2, 0.6, 0.2]"/>
+      <Aleatory count="11" cutoff="6.5" moBalance="true" sigma="0.12"/>
+    </MagUncertainty>
+    <SourceProperties ruptureScaling="NSHM_FAULT_WC94_LENGTH"/>
+  </Settings>
+  <Source id="-1" name="Cheraw USGS full">
+    <IncrementalMfd m="7.0" rate="0.0001148" type="SINGLE" weight="0.5"/>
+    <Geometry depth="0.0" dip="60.0" rake="-90.0" width="17.3205">
+      <Trace>
+-103.22410,38.43090,0.00000
+-103.23930,38.40200,0.00000
+-103.26370,38.36940,0.00000
+-103.30460,38.33210,0.00000
+-103.36310,38.29790,0.00000
+-103.43600,38.26920,0.00000
+-103.49670,38.22880,0.00000
+-103.56990,38.15960,0.00000
+-103.58480,38.15080,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="-1" name="Cheraw USGS partial">
+    <IncrementalMfd a="2.14217" b="0.95" mMax="6.9501" type="GR" weight="0.5"/>
+    <Geometry depth="0.0" dip="60.0" rake="-90.0" width="17.3205">
+      <Trace>
+-103.22410,38.43090,0.00000
+-103.23930,38.40200,0.00000
+-103.26370,38.36940,0.00000
+-103.30460,38.33210,0.00000
+-103.36310,38.29790,0.00000
+-103.43600,38.26920,0.00000
+-103.49670,38.22880,0.00000
+-103.56990,38.15960,0.00000
+-103.58480,38.15080,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="-1" name="Meers USGS full">
+    <IncrementalMfd m="7.0" rate="0.000222" type="SINGLE"/>
+    <Geometry depth="0.0" dip="89.0" rake="0.0" width="15.0">
+      <Trace>
+-98.63905,34.84744,0.00000
+-98.39988,34.75040,0.00000
+-98.32957,34.73318,0.00000
+-98.29007,34.71162,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+</FaultSourceSet>

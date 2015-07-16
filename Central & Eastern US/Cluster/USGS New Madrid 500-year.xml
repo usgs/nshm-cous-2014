@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ClusterSourceSet id="-1" name="USGS New Madrid 500-year" weight="0.4">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: newmad2014.500.cluster.in -->
+  <Settings>
+    <DefaultMfds>
+      <IncrementalMfd floats="false" m="0.0" rate="0.002" type="SINGLE" weight="1.0"/>
+    </DefaultMfds>
+    <SourceProperties ruptureScaling="NSHM_FAULT_WC94_LENGTH"/>
+  </Settings>
+  <Cluster id="-1" name="NMSZ: West Model" weight="0.0225">
+    <Source id="-1" name="North Section">
+      <IncrementalMfd m="6.6" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.3" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.1"/>
+      <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+        <Trace>
+-89.32300,37.26300,0.00000
+-89.88600,36.73400,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="Center Section">
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="8.0" type="SINGLE" weight="0.1"/>
+      <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+        <Trace>
+-89.88600,36.73400,0.00000
+-89.83000,36.34600,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="South Section">
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="8.0" type="SINGLE" weight="0.1"/>
+      <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+        <Trace>
+-89.83000,36.34600,0.00000
+-90.71900,35.64700,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+  </Cluster>
+  <Cluster id="-1" name="NMSZ: Mid-West Model" weight="0.045">
+    <Source id="-1" name="North Section">
+      <IncrementalMfd m="6.6" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.3" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.1"/>
+      <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+        <Trace>
+-89.19300,37.21800,0.00000
+-89.73400,36.71000,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="Center Section">
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="8.0" type="SINGLE" weight="0.1"/>
+      <Geometry depth="10.0" dip="63.5" rake="0.0" width="15.0">
+        <Trace>
+-89.73400,36.71000,0.00000
+-89.66700,36.29300,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="South Section">
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="8.0" type="SINGLE" weight="0.1"/>
+      <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+        <Trace>
+-89.66700,36.29300,0.00000
+-90.66700,35.53300,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+  </Cluster>
+  <Cluster id="-1" name="NMSZ: Center Model" weight="0.315">
+    <Source id="-1" name="North Section">
+      <IncrementalMfd m="6.6" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.3" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.1"/>
+      <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+        <Trace>
+-89.07000,37.16500,0.00000
+-89.58300,36.68700,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="Center Section">
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="8.0" type="SINGLE" weight="0.1"/>
+      <Geometry depth="10.0" dip="38.0" rake="0.0" width="15.0">
+        <Trace>
+-89.58300,36.68700,0.00000
+-89.50400,36.24100,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="South Section">
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="8.0" type="SINGLE" weight="0.1"/>
+      <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+        <Trace>
+-89.50400,36.24100,0.00000
+-90.61400,35.41900,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+  </Cluster>
+  <Cluster id="-1" name="NMSZ: Mid-East Model" weight="0.045">
+    <Source id="-1" name="North Section">
+      <IncrementalMfd m="6.6" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.3" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.1"/>
+      <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+        <Trace>
+-88.99600,37.06600,0.00000
+-89.43100,36.66300,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="Center Section">
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="8.0" type="SINGLE" weight="0.1"/>
+      <Geometry depth="10.0" dip="63.5" rake="0.0" width="15.0">
+        <Trace>
+-89.43100,36.66300,0.00000
+-89.34100,36.18800,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="South Section">
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="8.0" type="SINGLE" weight="0.1"/>
+      <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+        <Trace>
+-89.34100,36.18800,0.00000
+-90.50700,35.34600,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+  </Cluster>
+  <Cluster id="-1" name="NMSZ: East Model" weight="0.0225">
+    <Source id="-1" name="North Section">
+      <IncrementalMfd m="6.6" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.3" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="7.8" type="SINGLE" weight="0.1"/>
+      <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+        <Trace>
+-88.92900,36.96000,0.00000
+-89.27900,36.63900,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="Center Section">
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="8.0" type="SINGLE" weight="0.1"/>
+      <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+        <Trace>
+-89.27900,36.63900,0.00000
+-89.17800,36.13500,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+    <Source id="-1" name="South Section">
+      <IncrementalMfd m="6.8" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="7.5" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd m="7.7" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="8.0" type="SINGLE" weight="0.1"/>
+      <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+        <Trace>
+-89.17800,36.13500,0.00000
+-90.41500,35.26000,0.00000
+</Trace>
+      </Geometry>
+    </Source>
+  </Cluster>
+</ClusterSourceSet>

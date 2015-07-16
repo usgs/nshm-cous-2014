@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FaultSourceSet id="-1" name="USGS New Madrid 50000-year" weight="0.005">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: NMSZnocl.50000.2014.in -->
+  <Settings>
+    <DefaultMfds>
+      <IncrementalMfd floats="false" m="6.5" rate="0.0" type="SINGLE" weight="1.0"/>
+    </DefaultMfds>
+    <SourceProperties ruptureScaling="NSHM_FAULT_WC94_LENGTH"/>
+  </Settings>
+  <Source id="-1" name="New Madrid western">
+    <IncrementalMfd m="6.8" rate="2.0000000e-05" type="SINGLE" weight="0.005"/>
+    <IncrementalMfd m="7.1" rate="2.0000000e-05" type="SINGLE" weight="0.005"/>
+    <IncrementalMfd m="7.5" rate="2.0000000e-05" type="SINGLE" weight="0.025"/>
+    <IncrementalMfd m="7.7" rate="2.0000000e-05" type="SINGLE" weight="0.01"/>
+    <IncrementalMfd m="8.0" rate="2.0000000e-05" type="SINGLE" weight="0.005"/>
+    <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+      <Trace>
+-89.32300,37.26300,0.00000
+-89.88600,36.73400,0.00000
+-89.83000,36.34600,0.00000
+-90.71900,35.64700,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="-1" name="New Madrid mid - western">
+    <IncrementalMfd m="6.8" rate="2.0000000e-05" type="SINGLE" weight="0.01"/>
+    <IncrementalMfd m="7.1" rate="2.0000000e-05" type="SINGLE" weight="0.01"/>
+    <IncrementalMfd m="7.5" rate="2.0000000e-05" type="SINGLE" weight="0.05"/>
+    <IncrementalMfd m="7.7" rate="2.0000000e-05" type="SINGLE" weight="0.02"/>
+    <IncrementalMfd m="8.0" rate="2.0000000e-05" type="SINGLE" weight="0.01"/>
+    <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+      <Trace>
+-89.19300,37.21800,0.00000
+-89.73400,36.71000,0.00000
+-89.66700,36.29300,0.00000
+-90.66700,35.53300,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="-1" name="New Madrid eastern">
+    <IncrementalMfd m="6.8" rate="2.0000000e-05" type="SINGLE" weight="0.005"/>
+    <IncrementalMfd m="7.1" rate="2.0000000e-05" type="SINGLE" weight="0.005"/>
+    <IncrementalMfd m="7.5" rate="2.0000000e-05" type="SINGLE" weight="0.025"/>
+    <IncrementalMfd m="7.7" rate="2.0000000e-05" type="SINGLE" weight="0.01"/>
+    <IncrementalMfd m="8.0" rate="2.0000000e-05" type="SINGLE" weight="0.005"/>
+    <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+      <Trace>
+-88.92900,36.96000,0.00000
+-89.27900,36.63900,0.00000
+-89.17800,36.13500,0.00000
+-90.41500,35.26000,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="-1" name="New Madrid mid - eastern">
+    <IncrementalMfd m="6.8" rate="2.0000000e-05" type="SINGLE" weight="0.01"/>
+    <IncrementalMfd m="7.1" rate="2.0000000e-05" type="SINGLE" weight="0.01"/>
+    <IncrementalMfd m="7.5" rate="2.0000000e-05" type="SINGLE" weight="0.05"/>
+    <IncrementalMfd m="7.7" rate="2.0000000e-05" type="SINGLE" weight="0.02"/>
+    <IncrementalMfd m="8.0" rate="2.0000000e-05" type="SINGLE" weight="0.01"/>
+    <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+      <Trace>
+-88.99600,37.06600,0.00000
+-89.43100,36.66300,0.00000
+-89.34100,36.18800,0.00000
+-90.50700,35.34600,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="-1" name="New Madrid central">
+    <IncrementalMfd m="6.8" rate="2.0000000e-05" type="SINGLE" weight="0.07"/>
+    <IncrementalMfd m="7.1" rate="2.0000000e-05" type="SINGLE" weight="0.07"/>
+    <IncrementalMfd m="7.5" rate="2.0000000e-05" type="SINGLE" weight="0.35"/>
+    <IncrementalMfd m="7.7" rate="2.0000000e-05" type="SINGLE" weight="0.14"/>
+    <IncrementalMfd m="8.0" rate="2.0000000e-05" type="SINGLE" weight="0.07"/>
+    <Geometry depth="10.0" dip="89.0" rake="0.0" width="15.0">
+      <Trace>
+-89.07000,37.16500,0.00000
+-89.58300,36.68700,0.00000
+-89.50400,36.24100,0.00000
+-90.61400,35.41900,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+</FaultSourceSet>

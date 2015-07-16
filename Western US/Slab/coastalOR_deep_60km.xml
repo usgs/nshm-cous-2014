@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GridSourceSet id="-1" name="coastalOR_deep.in" weight="1.0">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: coastalOR_deep.in -->
+  <Settings>
+    <DefaultMfds>
+      <IncrementalMfd a="0.0" b="0.4" dMag="0.1" mMax="7.15" mMin="6.55" type="GR" weight="1.0"/>
+    </DefaultMfds>
+    <SourceProperties focalMechMap="[STRIKE_SLIP:1.0,NORMAL:0.0,REVERSE:0.0]" magDepthMap="[10.0::[60.0:1.0]]" maxDepth="68.0" ruptureScaling="NSHM_SUB_GEOMAT_LENGTH" strike="NaN"/>
+  </Settings>
+  <Nodes>
+    <Node a="5.5218174e-05" type="GR">-122.4,42.1,0.0</Node>
+    <Node a="5.1485862e-05" type="GR">-122.3,42.1,0.0</Node>
+    <Node a="5.5722761e-05" type="GR">-122.4,42.2,0.0</Node>
+    <Node a="5.1826632e-05" type="GR">-122.3,42.2,0.0</Node>
+    <Node a="5.5933651e-05" type="GR">-122.4,42.3,0.0</Node>
+    <Node a="5.1964140e-05" type="GR">-122.3,42.3,0.0</Node>
+    <Node a="5.5790384e-05" type="GR">-122.4,42.4,0.0</Node>
+    <Node a="5.1855495e-05" type="GR">-122.3,42.4,0.0</Node>
+    <Node a="5.5258533e-05" type="GR">-122.4,42.5,0.0</Node>
+    <Node a="5.1475785e-05" type="GR">-122.3,42.5,0.0</Node>
+    <Node a="5.4342308e-05" type="GR">-122.4,42.6,0.0</Node>
+    <Node a="5.0826973e-05" type="GR">-122.3,42.6,0.0</Node>
+    <Node a="5.3091178e-05" type="GR">-122.4,42.7,0.0</Node>
+    <Node a="4.9942795e-05" type="GR">-122.3,42.7,0.0</Node>
+    <Node a="5.1598443e-05" type="GR">-122.4,42.8,0.0</Node>
+    <Node a="4.8888123e-05" type="GR">-122.3,42.8,0.0</Node>
+    <Node a="4.9989427e-05" type="GR">-122.4,42.9,0.0</Node>
+    <Node a="4.7751000e-05" type="GR">-122.3,42.9,0.0</Node>
+    <Node a="4.8405062e-05" type="GR">-122.4,43.0,0.0</Node>
+    <Node a="4.6631947e-05" type="GR">-122.3,43.0,0.0</Node>
+    <Node a="4.6984220e-05" type="GR">-122.4,43.1,0.0</Node>
+    <Node a="4.5632260e-05" type="GR">-122.3,43.1,0.0</Node>
+    <Node a="4.5856206e-05" type="GR">-122.4,43.2,0.0</Node>
+    <Node a="4.4850214e-05" type="GR">-122.3,43.2,0.0</Node>
+    <Node a="4.5146826e-05" type="GR">-122.4,43.3,0.0</Node>
+    <Node a="4.4387172e-05" type="GR">-122.3,43.3,0.0</Node>
+    <Node a="4.4997301e-05" type="GR">-122.4,43.4,0.0</Node>
+    <Node a="4.4363282e-05" type="GR">-122.3,43.4,0.0</Node>
+    <Node a="4.5592493e-05" type="GR">-122.4,43.5,0.0</Node>
+    <Node a="4.4939712e-05" type="GR">-122.3,43.5,0.0</Node>
+    <Node a="4.7185506e-05" type="GR">-122.4,43.6,0.0</Node>
+    <Node a="4.6337474e-05" type="GR">-122.3,43.6,0.0</Node>
+    <Node a="5.0106104e-05" type="GR">-122.4,43.7,0.0</Node>
+    <Node a="4.8842438e-05" type="GR">-122.3,43.7,0.0</Node>
+    <Node a="5.4738222e-05" type="GR">-122.4,43.8,0.0</Node>
+    <Node a="5.2784952e-05" type="GR">-122.3,43.8,0.0</Node>
+    <Node a="6.1460189e-05" type="GR">-122.4,43.9,0.0</Node>
+    <Node a="5.8487545e-05" type="GR">-122.3,43.9,0.0</Node>
+    <Node a="7.0547045e-05" type="GR">-122.4,44.0,0.0</Node>
+    <Node a="6.6181201e-05" type="GR">-122.3,44.0,0.0</Node>
+    <Node a="8.2058425e-05" type="GR">-122.4,44.1,0.0</Node>
+    <Node a="7.5910997e-05" type="GR">-122.3,44.1,0.0</Node>
+    <Node a="9.5733885e-05" type="GR">-122.4,44.2,0.0</Node>
+    <Node a="8.7446053e-05" type="GR">-122.3,44.2,0.0</Node>
+    <Node a="0.00011094489" type="GR">-122.4,44.3,0.0</Node>
+    <Node a="0.00010024205" type="GR">-122.3,44.3,0.0</Node>
+    <Node a="0.00012673436" type="GR">-122.4,44.4,0.0</Node>
+    <Node a="0.00011347437" type="GR">-122.3,44.4,0.0</Node>
+    <Node a="0.00014193858" type="GR">-122.4,44.5,0.0</Node>
+    <Node a="0.00012614601" type="GR">-122.3,44.5,0.0</Node>
+    <Node a="0.00015539092" type="GR">-122.4,44.6,0.0</Node>
+    <Node a="0.00013726301" type="GR">-122.3,44.6,0.0</Node>
+    <Node a="0.00016611983" type="GR">-122.4,44.7,0.0</Node>
+    <Node a="0.00014600523" type="GR">-122.3,44.7,0.0</Node>
+    <Node a="0.00017350407" type="GR">-122.4,44.8,0.0</Node>
+    <Node a="0.00015186111" type="GR">-122.3,44.8,0.0</Node>
+    <Node a="0.00017732134" type="GR">-122.4,44.9,0.0</Node>
+    <Node a="0.00015466809" type="GR">-122.3,44.9,0.0</Node>
+    <Node a="0.00017768878" type="GR">-122.4,45.0,0.0</Node>
+    <Node a="0.00015455985" type="GR">-122.3,45.0,0.0</Node>
+    <Node a="0.00017492987" type="GR">-122.4,45.1,0.0</Node>
+    <Node a="0.00015185245" type="GR">-122.3,45.1,0.0</Node>
+    <Node a="0.00016943547" type="GR">-122.4,45.2,0.0</Node>
+    <Node a="0.00014691599" type="GR">-122.3,45.2,0.0</Node>
+    <Node a="0.00016157757" type="GR">-122.4,45.3,0.0</Node>
+    <Node a="0.00014009795" type="GR">-122.3,45.3,0.0</Node>
+    <Node a="0.00015169507" type="GR">-122.4,45.4,0.0</Node>
+    <Node a="0.00013170214" type="GR">-122.3,45.4,0.0</Node>
+    <Node a="0.00014014743" type="GR">-122.4,45.5,0.0</Node>
+    <Node a="0.00012203316" type="GR">-122.3,45.5,0.0</Node>
+    <Node a="0.00012737884" type="GR">-122.4,45.6,0.0</Node>
+    <Node a="0.00011144997" type="GR">-122.3,45.6,0.0</Node>
+    <Node a="0.00011395736" type="GR">-122.4,45.7,0.0</Node>
+    <Node a="0.00010040202" type="GR">-122.3,45.7,0.0</Node>
+    <Node a="0.00010055024" type="GR">-122.4,45.8,0.0</Node>
+    <Node a="8.9414483e-05" type="GR">-122.3,45.8,0.0</Node>
+    <Node a="8.7836408e-05" type="GR">-122.4,45.9,0.0</Node>
+    <Node a="7.9023797e-05" type="GR">-122.3,45.9,0.0</Node>
+    <Node a="7.6405697e-05" type="GR">-122.4,46.0,0.0</Node>
+    <Node a="6.9695539e-05" type="GR">-122.3,46.0,0.0</Node>
+    <Node a="6.6662949e-05" type="GR">-122.4,46.1,0.0</Node>
+    <Node a="6.1749939e-05" type="GR">-122.3,46.1,0.0</Node>
+    <Node a="5.8783859e-05" type="GR">-122.4,46.2,0.0</Node>
+    <Node a="5.5324035e-05" type="GR">-122.3,46.2,0.0</Node>
+    <Node a="5.2728061e-05" type="GR">-122.4,46.3,0.0</Node>
+    <Node a="5.0382172e-05" type="GR">-122.3,46.3,0.0</Node>
+  </Nodes>
+</GridSourceSet>

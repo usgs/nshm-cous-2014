@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GroundMotionModels>
+  <!-- This model is an example and for review purposes only -->
+  <ModelSet maxDistance="500.0">
+    <Model id="AB_06_PRIME" weight="0.25"/>
+    <Model id="ATKINSON_08_PRIME" weight="0.08"/>
+    <Model id="CAMPBELL_03" weight="0.13"/>
+    <Model id="FRANKEL_96" weight="0.06"/>
+    <Model id="PEZESHK_11" weight="0.16"/>
+    <Model id="SILVA_02" weight="0.06"/>
+    <Model id="TP_05" weight="0.13"/>
+    <Model id="TORO_97_MW" weight="0.13"/>
+  </ModelSet>
+  <ModelSet maxDistance="1000.0">
+    <Model id="AB_06_PRIME" weight="0.3"/>
+    <Model id="CAMPBELL_03" weight="0.17"/>
+    <Model id="FRANKEL_96" weight="0.16"/>
+    <Model id="PEZESHK_11" weight="0.2"/>
+    <Model id="TP_05" weight="0.17"/>
+  </ModelSet>
+</GroundMotionModels>

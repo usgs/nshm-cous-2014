@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SubductionSourceSet id="-1" name="sub4_ch_top.in" weight="0.025">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: sub4_ch_top.in -->
+  <Settings>
+    <SourceProperties ruptureScaling="NSHM_SUB_GEOMAT_LENGTH"/>
+  </Settings>
+  <Source id="-1" name="Cascadia Megathrust - CSZ northern zone Characteristic">
+    <IncrementalMfd floats="false" m="8.63" rate="0.001" type="SINGLE" weight="0.333"/>
+    <IncrementalMfd floats="false" m="8.34" rate="0.001" type="SINGLE" weight="0.334"/>
+    <IncrementalMfd floats="false" m="8.4" rate="0.001" type="SINGLE" weight="0.333"/>
+    <Geometry rake="90.0">
+      <Trace>
+-125.72885,46.30000,5.00000
+-125.73574,46.32987,5.00000
+-125.81562,46.62940,5.00000
+-125.92025,46.94307,5.00000
+-126.04937,47.27867,5.00000
+-126.23375,47.66285,5.00000
+-126.43900,47.99196,5.00000
+-126.67810,48.27786,5.00000
+-127.08010,48.68892,5.00000
+-127.64473,49.25290,5.00000
+</Trace>
+      <LowerTrace>
+-124.43943,46.30000,18.44058
+-124.43224,46.35860,18.59490
+-124.40518,46.75830,19.99963
+-124.28905,47.18333,23.12651
+-124.33373,47.62747,24.46938
+-124.74072,48.05182,22.80767
+-125.21443,48.41262,21.23967
+-125.74942,48.71699,19.01135
+-126.38320,49.09622,18.47519
+-127.04273,49.61933,19.11960
+</LowerTrace>
+    </Geometry>
+  </Source>
+</SubductionSourceSet>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GridSourceSet id="-1" name="shear2_2014.in" weight="1.0">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: shear2_2014.in -->
+  <Settings>
+    <DefaultMfds>
+      <IncrementalMfd a="0.0" b="0.8" dMag="0.1" mMax="7.55" mMin="6.55" type="GR" weight="1.0"/>
+    </DefaultMfds>
+    <SourceProperties focalMechMap="[STRIKE_SLIP:1.0,NORMAL:0.0,REVERSE:0.0]" magDepthMap="[6.5::[5.0:1.0]; 10.0::[1.0:1.0]]" maxDepth="14.0" ruptureScaling="NSHM_POINT_WC94_LENGTH" strike="335.0"/>
+  </Settings>
+  <Nodes>
+    <Node a="0.46678764" type="GR">-122.4,42.1,0.0</Node>
+    <Node a="0.46678764" type="GR">-122.3,42.1,0.0</Node>
+    <Node a="0.46678764" type="GR">-122.2,42.1,0.0</Node>
+    <Node a="0.46678764" type="GR">-122.1,42.1,0.0</Node>
+    <Node a="0.46678764" type="GR">-122.0,42.1,0.0</Node>
+    <Node a="0.46678764" type="GR">-121.9,42.1,0.0</Node>
+    <Node a="0.46678764" type="GR">-121.8,42.1,0.0</Node>
+    <Node a="0.46678764" type="GR">-121.7,42.1,0.0</Node>
+    <Node a="0.46678764" type="GR">-121.6,42.1,0.0</Node>
+    <Node a="0.46678764" type="GR">-121.5,42.1,0.0</Node>
+    <Node a="0.46678764" type="GR">-121.4,42.1,0.0</Node>
+    <Node a="0.46678764" type="GR">-121.3,42.1,0.0</Node>
+    <Node a="0.46678764" type="GR">-121.2,42.1,0.0</Node>
+    <Node a="0.46605071" type="GR">-122.2,42.2,0.0</Node>
+    <Node a="0.46605071" type="GR">-122.1,42.2,0.0</Node>
+    <Node a="0.46605071" type="GR">-122.0,42.2,0.0</Node>
+    <Node a="0.46605071" type="GR">-121.9,42.2,0.0</Node>
+    <Node a="0.46605071" type="GR">-121.8,42.2,0.0</Node>
+    <Node a="0.46605071" type="GR">-121.7,42.2,0.0</Node>
+    <Node a="0.46605071" type="GR">-121.6,42.2,0.0</Node>
+    <Node a="0.46605071" type="GR">-121.5,42.2,0.0</Node>
+    <Node a="0.46605071" type="GR">-121.4,42.2,0.0</Node>
+    <Node a="0.46605071" type="GR">-121.3,42.2,0.0</Node>
+    <Node a="0.46531242" type="GR">-121.9,42.3,0.0</Node>
+    <Node a="0.46531242" type="GR">-121.8,42.3,0.0</Node>
+    <Node a="0.46531242" type="GR">-121.7,42.3,0.0</Node>
+    <Node a="0.46531242" type="GR">-121.6,42.3,0.0</Node>
+    <Node a="0.46531242" type="GR">-121.5,42.3,0.0</Node>
+    <Node a="0.46531242" type="GR">-121.4,42.3,0.0</Node>
+    <Node a="0.46531242" type="GR">-121.3,42.3,0.0</Node>
+    <Node a="0.46457273" type="GR">-121.7,42.4,0.0</Node>
+    <Node a="0.46457273" type="GR">-121.6,42.4,0.0</Node>
+    <Node a="0.46457273" type="GR">-121.5,42.4,0.0</Node>
+    <Node a="0.46457273" type="GR">-121.4,42.4,0.0</Node>
+    <Node a="0.46383166" type="GR">-121.5,42.5,0.0</Node>
+  </Nodes>
+</GridSourceSet>

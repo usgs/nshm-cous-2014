@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GridSourceSet id="-1" name="Eastern Rift Margin S1" weight="0.6">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: ERM-S1_RLME_2014.670.in -->
+  <Settings>
+    <DefaultMfds>
+      <IncrementalMfd floats="false" m="6.7" rate="0.0" type="SINGLE" weight="0.15"/>
+      <IncrementalMfd floats="false" m="6.9" rate="0.0" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd floats="false" m="7.1" rate="0.0" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd floats="false" m="7.3" rate="0.0" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd floats="false" m="7.5" rate="0.0" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd floats="false" m="7.7" rate="0.0" type="SINGLE" weight="0.05"/>
+    </DefaultMfds>
+    <SourceProperties focalMechMap="[STRIKE_SLIP:1.0,NORMAL:0.0,REVERSE:0.0]" magDepthMap="[10.0::[5.0:1.0]]" maxDepth="22.0" ruptureScaling="NSHM_POINT_WC94_LENGTH" strike="38.752479"/>
+  </Settings>
+  <Nodes>
+    <Node rate="1.4723682e-05" type="SINGLE">-90.4,35.2,0.0</Node>
+    <Node rate="1.4705523e-05" type="SINGLE">-90.3,35.3,0.0</Node>
+    <Node rate="1.4687337e-05" type="SINGLE">-90.1,35.4,0.0</Node>
+    <Node rate="1.4687337e-05" type="SINGLE">-90.0,35.4,0.0</Node>
+    <Node rate="1.4687337e-05" type="SINGLE">-89.9,35.4,0.0</Node>
+    <Node rate="1.4669095e-05" type="SINGLE">-89.9,35.5,0.0</Node>
+    <Node rate="1.4669095e-05" type="SINGLE">-89.8,35.5,0.0</Node>
+    <Node rate="1.4650809e-05" type="SINGLE">-89.8,35.6,0.0</Node>
+    <Node rate="1.4650809e-05" type="SINGLE">-89.7,35.6,0.0</Node>
+    <Node rate="1.4632483e-05" type="SINGLE">-89.7,35.7,0.0</Node>
+    <Node rate="1.4614115e-05" type="SINGLE">-89.6,35.8,0.0</Node>
+    <Node rate="1.4595690e-05" type="SINGLE">-89.5,35.9,0.0</Node>
+    <Node rate="1.4577224e-05" type="SINGLE">-89.4,36.0,0.0</Node>
+    <Node rate="1.4558718e-05" type="SINGLE">-89.3,36.1,0.0</Node>
+  </Nodes>
+</GridSourceSet>
