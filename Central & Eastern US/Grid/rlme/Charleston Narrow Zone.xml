@@ -10,7 +10,7 @@
       <IncrementalMfd floats="false" m="7.3" rate="0.0" type="SINGLE" weight="0.25"/>
       <IncrementalMfd floats="false" m="7.5" rate="0.0" type="SINGLE" weight="0.1"/>
     </DefaultMfds>
-    <SourceProperties focalMechMap="[STRIKE_SLIP:1.0,NORMAL:0.0,REVERSE:0.0]" magDepthMap="[10.0::[5.0:1.0]]" maxDepth="22.0" ruptureScaling="NSHM_POINT_WC94_LENGTH" strike="NaN"/>
+    <SourceProperties focalMechMap="[STRIKE_SLIP:1.0,NORMAL:0.0,REVERSE:0.0]" magDepthMap="[10.0::[5.0:1.0]]" maxDepth="22.0" ruptureScaling="NSHM_POINT_WC94_LENGTH" strike="17.5"/>
   </Settings>
   <Nodes>
     <Node rate="0.00011155223" type="SINGLE">-80.2,32.7,0.0</Node>
