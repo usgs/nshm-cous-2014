@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<FaultSourceSet id="-1" name="Wasatch" weight="0.24">
+<FaultSourceSet id="-1" name="Wasatch" weight="0.192">
   <!-- This model is an example and for review purposes only -->
   <!-- Original source file: wasatch_slc.noclu.in -->
   <Settings>
