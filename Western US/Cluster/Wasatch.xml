@@ -632,7 +632,7 @@
       </Geometry>
     </Source>
   </Cluster>
-  <Cluster id="-1" name="Wasatch: unknown Model" weight="0.24">
+  <Cluster id="-1" name="Wasatch: 65 Dip Model" weight="0.24">
     <Source id="-1" name="North Section 65">
       <IncrementalMfd m="6.03" type="SINGLE" weight="0.04"/>
       <IncrementalMfd m="6.23" type="SINGLE" weight="0.12"/>
