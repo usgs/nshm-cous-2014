@@ -14,19 +14,22 @@
     <SourceProperties focalMechMap="[STRIKE_SLIP:1.0,NORMAL:0.0,REVERSE:0.0]" magDepthMap="[10.0::[5.0:1.0]]" maxDepth="22.0" ruptureScaling="NSHM_POINT_WC94_LENGTH" strike="21.838071"/>
   </Settings>
   <Nodes>
-    <Node rate="1.4723682e-05" type="SINGLE">-90.4,35.2,0.0</Node>
-    <Node rate="1.4705523e-05" type="SINGLE">-90.3,35.3,0.0</Node>
-    <Node rate="1.4687337e-05" type="SINGLE">-90.1,35.4,0.0</Node>
-    <Node rate="1.4687337e-05" type="SINGLE">-90.0,35.4,0.0</Node>
-    <Node rate="1.4687337e-05" type="SINGLE">-89.9,35.4,0.0</Node>
-    <Node rate="1.4669095e-05" type="SINGLE">-89.9,35.5,0.0</Node>
-    <Node rate="1.4669095e-05" type="SINGLE">-89.8,35.5,0.0</Node>
-    <Node rate="1.4650809e-05" type="SINGLE">-89.8,35.6,0.0</Node>
-    <Node rate="1.4650809e-05" type="SINGLE">-89.7,35.6,0.0</Node>
-    <Node rate="1.4632483e-05" type="SINGLE">-89.7,35.7,0.0</Node>
-    <Node rate="1.4614115e-05" type="SINGLE">-89.6,35.8,0.0</Node>
-    <Node rate="1.4595690e-05" type="SINGLE">-89.5,35.9,0.0</Node>
-    <Node rate="1.4577224e-05" type="SINGLE">-89.4,36.0,0.0</Node>
-    <Node rate="1.4558718e-05" type="SINGLE">-89.3,36.1,0.0</Node>
+    <Node rate="1.2154025e-05" type="SINGLE">-90.3,34.9,0.0</Node>
+    <Node rate="1.2139209e-05" type="SINGLE">-90.2,35.0,0.0</Node>
+    <Node rate="1.2124357e-05" type="SINGLE">-90.2,35.1,0.0</Node>
+    <Node rate="1.2109456e-05" type="SINGLE">-90.1,35.2,0.0</Node>
+    <Node rate="1.2094534e-05" type="SINGLE">-90.1,35.3,0.0</Node>
+    <Node rate="1.2079565e-05" type="SINGLE">-90.1,35.4,0.0</Node>
+    <Node rate="1.2079565e-05" type="SINGLE">-90.0,35.4,0.0</Node>
+    <Node rate="1.2079565e-05" type="SINGLE">-89.9,35.4,0.0</Node>
+    <Node rate="1.2064574e-05" type="SINGLE">-89.9,35.5,0.0</Node>
+    <Node rate="1.2064574e-05" type="SINGLE">-89.8,35.5,0.0</Node>
+    <Node rate="1.2049535e-05" type="SINGLE">-89.8,35.6,0.0</Node>
+    <Node rate="1.2049535e-05" type="SINGLE">-89.7,35.6,0.0</Node>
+    <Node rate="1.2034449e-05" type="SINGLE">-89.7,35.7,0.0</Node>
+    <Node rate="1.2019343e-05" type="SINGLE">-89.6,35.8,0.0</Node>
+    <Node rate="1.2004202e-05" type="SINGLE">-89.5,35.9,0.0</Node>
+    <Node rate="1.1989016e-05" type="SINGLE">-89.4,36.0,0.0</Node>
+    <Node rate="1.1973795e-05" type="SINGLE">-89.3,36.1,0.0</Node>
   </Nodes>
 </GridSourceSet>
