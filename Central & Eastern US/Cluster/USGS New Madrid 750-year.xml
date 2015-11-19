@@ -11,7 +11,7 @@
   <Cluster id="-1" name="NMSZ: West Model" weight="0.0225">
     <Source id="-1" name="North Section">
       <IncrementalMfd m="6.6" type="SINGLE" weight="0.1"/>
-      <IncrementalMfd m="6.8" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.1"/>
       <IncrementalMfd m="7.3" type="SINGLE" weight="0.5"/>
       <IncrementalMfd m="7.5" type="SINGLE" weight="0.2"/>
       <IncrementalMfd m="7.8" type="SINGLE" weight="0.1"/>
@@ -52,7 +52,7 @@
   <Cluster id="-1" name="NMSZ: Mid-West Model" weight="0.045">
     <Source id="-1" name="North Section">
       <IncrementalMfd m="6.6" type="SINGLE" weight="0.1"/>
-      <IncrementalMfd m="6.8" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.1"/>
       <IncrementalMfd m="7.3" type="SINGLE" weight="0.5"/>
       <IncrementalMfd m="7.5" type="SINGLE" weight="0.2"/>
       <IncrementalMfd m="7.8" type="SINGLE" weight="0.1"/>
@@ -93,7 +93,7 @@
   <Cluster id="-1" name="NMSZ: Center Model" weight="0.315">
     <Source id="-1" name="North Section">
       <IncrementalMfd m="6.6" type="SINGLE" weight="0.1"/>
-      <IncrementalMfd m="6.8" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.1"/>
       <IncrementalMfd m="7.3" type="SINGLE" weight="0.5"/>
       <IncrementalMfd m="7.5" type="SINGLE" weight="0.2"/>
       <IncrementalMfd m="7.8" type="SINGLE" weight="0.1"/>
@@ -134,7 +134,7 @@
   <Cluster id="-1" name="NMSZ: Mid-East Model" weight="0.045">
     <Source id="-1" name="North Section">
       <IncrementalMfd m="6.6" type="SINGLE" weight="0.1"/>
-      <IncrementalMfd m="6.8" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.1"/>
       <IncrementalMfd m="7.3" type="SINGLE" weight="0.5"/>
       <IncrementalMfd m="7.5" type="SINGLE" weight="0.2"/>
       <IncrementalMfd m="7.8" type="SINGLE" weight="0.1"/>
@@ -175,7 +175,7 @@
   <Cluster id="-1" name="NMSZ: East Model" weight="0.0225">
     <Source id="-1" name="North Section">
       <IncrementalMfd m="6.6" type="SINGLE" weight="0.1"/>
-      <IncrementalMfd m="6.8" type="SINGLE" weight="0.1"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.1"/>
       <IncrementalMfd m="7.3" type="SINGLE" weight="0.5"/>
       <IncrementalMfd m="7.5" type="SINGLE" weight="0.2"/>
       <IncrementalMfd m="7.8" type="SINGLE" weight="0.1"/>
