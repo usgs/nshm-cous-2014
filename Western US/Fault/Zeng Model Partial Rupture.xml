@@ -9395,22 +9395,6 @@
 </Trace>
     </Geometry>
   </Source>
-  <Source id="1" name="Cheraw 60">
-    <IncrementalMfd a="1.34465" dMag="0.125" mMax="6.9376" mMin="6.5625" type="GR"/>
-    <Geometry depth="0.0" dip="60.0" rake="-90.0" width="17.32051">
-      <Trace>
--103.22463,38.43087,0.00000
--103.23981,38.40194,0.00000
--103.26417,38.36942,0.00000
--103.30504,38.33214,0.00000
--103.36362,38.29782,0.00000
--103.43648,38.26925,0.00000
--103.49722,38.22882,0.00000
--103.57035,38.15956,0.00000
--103.58526,38.15084,0.00000
-</Trace>
-    </Geometry>
-  </Source>
   <Source id="155" name="Wasatch - Brigham City section 50">
     <IncrementalMfd a="2.06512" dMag="0.1125" mMax="6.89385" mMin="6.55625" type="GR" weight="0.324"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
