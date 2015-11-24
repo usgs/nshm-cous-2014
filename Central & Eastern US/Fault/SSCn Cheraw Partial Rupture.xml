@@ -10,7 +10,7 @@
   </Settings>
   <Source id="-1" name="Cheraw CEUS - SSC partial">
     <IncrementalMfd a="2.10117" b="1.0" dMag="0.1125" mMax="7.34385" mMin="6.55625" type="GR"/>
-    <Geometry depth="0.0" dip="50.0" rake="0.0" width="19.58112">
+    <Geometry depth="0.0" dip="60.0" rake="-90.0" width="19.58112">
       <Trace>
 -103.21907,38.43641,0.00000
 -103.24242,38.39668,0.00000
