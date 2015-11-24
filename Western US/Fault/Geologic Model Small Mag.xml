@@ -770,7 +770,7 @@
     </Geometry>
   </Source>
   <Source id="259" name="Acala 50">
-    <IncrementalMfd m="6.09" rate="0.0003274091" type="SINGLE" weight="0.6"/>
+    <IncrementalMfd m="6.09" rate="0.0003274091" type="SINGLE" weight="0.75"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -105.93845,31.41141,0.00000
@@ -779,7 +779,7 @@
     </Geometry>
   </Source>
   <Source id="259" name="Acala 65">
-    <IncrementalMfd m="6.09" rate="0.0003274091" type="SINGLE" weight="0.2"/>
+    <IncrementalMfd m="6.09" rate="0.0003274091" type="SINGLE" weight="0.25"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -105.93845,31.41141,0.00000
@@ -788,7 +788,7 @@
     </Geometry>
   </Source>
   <Source id="259" name="Acala 35">
-    <IncrementalMfd m="6.09" rate="0.0003274091" type="SINGLE" weight="0.2"/>
+    <IncrementalMfd m="6.09" rate="0.0003274091" type="SINGLE" weight="0.25"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -105.93845,31.41141,0.00000
@@ -797,7 +797,7 @@
     </Geometry>
   </Source>
   <Source id="260" name="Arroyo Diablo 50">
-    <IncrementalMfd m="6.41" rate="3.0295925e-05" type="SINGLE" weight="0.6"/>
+    <IncrementalMfd m="6.41" rate="3.0295925e-05" type="SINGLE" weight="0.75"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -105.72004,31.30621,0.00000
@@ -807,7 +807,7 @@
     </Geometry>
   </Source>
   <Source id="260" name="Arroyo Diablo 65">
-    <IncrementalMfd m="6.41" rate="3.0295925e-05" type="SINGLE" weight="0.2"/>
+    <IncrementalMfd m="6.41" rate="3.0295925e-05" type="SINGLE" weight="0.25"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -105.72004,31.30621,0.00000
@@ -817,7 +817,7 @@
     </Geometry>
   </Source>
   <Source id="260" name="Arroyo Diablo 35">
-    <IncrementalMfd m="6.41" rate="3.0295925e-05" type="SINGLE" weight="0.2"/>
+    <IncrementalMfd m="6.41" rate="3.0295925e-05" type="SINGLE" weight="0.25"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -105.72004,31.30621,0.00000
