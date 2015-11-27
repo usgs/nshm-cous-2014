@@ -3054,7 +3054,7 @@
     </Geometry>
   </Source>
   <Source id="45" name="Carson Range 50">
-    <IncrementalMfd m="7.08" rate="0.0017451" type="SINGLE" weight="0.15"/>
+    <IncrementalMfd m="7.08" rate="0.0017451" type="SINGLE" weight="0.1875"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -119.80903,38.66867,0.00000
@@ -3081,7 +3081,7 @@
     </Geometry>
   </Source>
   <Source id="45" name="Carson Range 65">
-    <IncrementalMfd m="7.08" rate="0.0017451" type="SINGLE" weight="0.05"/>
+    <IncrementalMfd m="7.08" rate="0.0017451" type="SINGLE" weight="0.0625"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -119.80903,38.66867,0.00000
@@ -3108,7 +3108,7 @@
     </Geometry>
   </Source>
   <Source id="45" name="Carson Range 35">
-    <IncrementalMfd m="7.08" rate="0.0017451" type="SINGLE" weight="0.05"/>
+    <IncrementalMfd m="7.08" rate="0.0017451" type="SINGLE" weight="0.0625"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -119.80903,38.66867,0.00000
