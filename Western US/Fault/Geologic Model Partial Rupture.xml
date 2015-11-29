@@ -5728,7 +5728,7 @@
     </Geometry>
   </Source>
   <Source id="108" name="Kings Canyon 50">
-    <IncrementalMfd floats="true" m="6.51" rate="0.00041117812" type="SINGLE" weight="0.15"/>
+    <IncrementalMfd floats="true" m="6.51" rate="0.00041117812" type="SINGLE" weight="0.1875"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -119.85691,39.11248,0.00000
@@ -5743,7 +5743,7 @@
     </Geometry>
   </Source>
   <Source id="108" name="Kings Canyon 65">
-    <IncrementalMfd floats="true" m="6.51" rate="0.00041117812" type="SINGLE" weight="0.05"/>
+    <IncrementalMfd floats="true" m="6.51" rate="0.00041117812" type="SINGLE" weight="0.0625"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -119.85691,39.11248,0.00000
@@ -5758,7 +5758,7 @@
     </Geometry>
   </Source>
   <Source id="108" name="Kings Canyon 35">
-    <IncrementalMfd floats="true" m="6.51" rate="0.00041117812" type="SINGLE" weight="0.05"/>
+    <IncrementalMfd floats="true" m="6.51" rate="0.00041117812" type="SINGLE" weight="0.0625"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -119.85691,39.11248,0.00000
