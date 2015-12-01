@@ -6517,48 +6517,6 @@
 </Trace>
     </Geometry>
   </Source>
-  <Source id="105" name="Little Valley 50">
-    <IncrementalMfd floats="true" m="6.52" rate="0.00055098528" type="SINGLE" weight="0.15"/>
-    <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
-      <Trace>
--119.87901,39.19728,0.00000
--119.88593,39.21157,0.00000
--119.88396,39.23142,0.00000
--119.89088,39.24778,0.00000
--119.85799,39.30366,0.00000
--119.86105,39.33195,0.00000
--119.86959,39.35163,0.00000
-</Trace>
-    </Geometry>
-  </Source>
-  <Source id="105" name="Little Valley 65">
-    <IncrementalMfd floats="true" m="6.52" rate="0.00055098528" type="SINGLE" weight="0.05"/>
-    <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
-      <Trace>
--119.87901,39.19728,0.00000
--119.88593,39.21157,0.00000
--119.88396,39.23142,0.00000
--119.89088,39.24778,0.00000
--119.85799,39.30366,0.00000
--119.86105,39.33195,0.00000
--119.86959,39.35163,0.00000
-</Trace>
-    </Geometry>
-  </Source>
-  <Source id="105" name="Little Valley 35">
-    <IncrementalMfd floats="true" m="6.52" rate="0.00055098528" type="SINGLE" weight="0.05"/>
-    <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
-      <Trace>
--119.87901,39.19728,0.00000
--119.88593,39.21157,0.00000
--119.88396,39.23142,0.00000
--119.89088,39.24778,0.00000
--119.85799,39.30366,0.00000
--119.86105,39.33195,0.00000
--119.86959,39.35163,0.00000
-</Trace>
-    </Geometry>
-  </Source>
   <Source id="109" name="Spanish Springs Valley 50">
     <IncrementalMfd a="1.38607" dMag="0.06" mMax="6.5901" mMin="6.53" type="GR" weight="0.6"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">

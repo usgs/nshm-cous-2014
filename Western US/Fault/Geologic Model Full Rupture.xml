@@ -5851,7 +5851,7 @@
     </Geometry>
   </Source>
   <Source id="105" name="Little Valley 50">
-    <IncrementalMfd m="6.54" rate="0.0003836" type="SINGLE" weight="0.15"/>
+    <IncrementalMfd m="6.54" rate="0.0003836" type="SINGLE" weight="0.1875"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -119.87901,39.19728,0.00000
@@ -5865,7 +5865,7 @@
     </Geometry>
   </Source>
   <Source id="105" name="Little Valley 65">
-    <IncrementalMfd m="6.54" rate="0.0003836" type="SINGLE" weight="0.05"/>
+    <IncrementalMfd m="6.54" rate="0.0003836" type="SINGLE" weight="0.0625"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -119.87901,39.19728,0.00000
@@ -5879,7 +5879,7 @@
     </Geometry>
   </Source>
   <Source id="105" name="Little Valley 35">
-    <IncrementalMfd m="6.54" rate="0.0003836" type="SINGLE" weight="0.05"/>
+    <IncrementalMfd m="6.54" rate="0.0003836" type="SINGLE" weight="0.0625"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -119.87901,39.19728,0.00000
