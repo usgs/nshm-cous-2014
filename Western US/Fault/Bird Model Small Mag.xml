@@ -592,7 +592,7 @@
     </Geometry>
   </Source>
   <Source id="2" name="West Valley 50">
-    <IncrementalMfd rate="0.0004814874" type="SINGLE" weight="0.3"/>
+    <IncrementalMfd rate="0.0004814874" type="SINGLE" weight="0.6"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -111.95078,40.65803,0.00000
@@ -607,7 +607,7 @@
     </Geometry>
   </Source>
   <Source id="2" name="West Valley 65">
-    <IncrementalMfd rate="0.0004814874" type="SINGLE" weight="0.1"/>
+    <IncrementalMfd rate="0.0004814874" type="SINGLE" weight="0.2"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -111.95078,40.65803,0.00000
@@ -622,7 +622,7 @@
     </Geometry>
   </Source>
   <Source id="2" name="West Valley 35">
-    <IncrementalMfd rate="0.0004814874" type="SINGLE" weight="0.1"/>
+    <IncrementalMfd rate="0.0004814874" type="SINGLE" weight="0.2"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -111.95078,40.65803,0.00000
@@ -942,15 +942,6 @@
 -119.93787,39.82769,0.00000
 -119.94470,39.88626,0.00000
 -119.94075,39.89803,0.00000
-</Trace>
-    </Geometry>
-  </Source>
-  <Source id="282" name="Sandy River">
-    <IncrementalMfd rate="0.00076957326" type="SINGLE"/>
-    <Geometry depth="0.0" dip="90.0" rake="0.0" width="15.0">
-      <Trace>
--122.38266,45.54615,0.00000
--122.23415,45.43916,0.00000
 </Trace>
     </Geometry>
   </Source>

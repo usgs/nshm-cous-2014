@@ -613,7 +613,7 @@
     </Geometry>
   </Source>
   <Source id="2" name="West Valley 50">
-    <IncrementalMfd rate="0.00068340148" type="SINGLE" weight="0.3"/>
+    <IncrementalMfd rate="0.00068340148" type="SINGLE" weight="0.6"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -111.95078,40.65803,0.00000
@@ -628,7 +628,7 @@
     </Geometry>
   </Source>
   <Source id="2" name="West Valley 65">
-    <IncrementalMfd rate="0.00068340148" type="SINGLE" weight="0.1"/>
+    <IncrementalMfd rate="0.00068340148" type="SINGLE" weight="0.2"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -111.95078,40.65803,0.00000
@@ -643,7 +643,7 @@
     </Geometry>
   </Source>
   <Source id="2" name="West Valley 35">
-    <IncrementalMfd rate="0.00068340148" type="SINGLE" weight="0.1"/>
+    <IncrementalMfd rate="0.00068340148" type="SINGLE" weight="0.2"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -111.95078,40.65803,0.00000
