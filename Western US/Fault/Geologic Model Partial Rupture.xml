@@ -3054,7 +3054,7 @@
     </Geometry>
   </Source>
   <Source id="45" name="Carson Range 50">
-    <IncrementalMfd a="2.31542" dMag="0.0967" mMax="7.03175" mMin="6.54835" type="GR" weight="0.15"/>
+    <IncrementalMfd a="2.31542" dMag="0.0967" mMax="7.03175" mMin="6.54835" type="GR" weight="0.1875"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -119.80903,38.66867,0.00000
@@ -3081,7 +3081,7 @@
     </Geometry>
   </Source>
   <Source id="45" name="Carson Range 65">
-    <IncrementalMfd a="2.31542" dMag="0.0967" mMax="7.03175" mMin="6.54835" type="GR" weight="0.05"/>
+    <IncrementalMfd a="2.31542" dMag="0.0967" mMax="7.03175" mMin="6.54835" type="GR" weight="0.0625"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -119.80903,38.66867,0.00000
@@ -3108,7 +3108,7 @@
     </Geometry>
   </Source>
   <Source id="45" name="Carson Range 35">
-    <IncrementalMfd a="2.31542" dMag="0.0967" mMax="7.03175" mMin="6.54835" type="GR" weight="0.05"/>
+    <IncrementalMfd a="2.31542" dMag="0.0967" mMax="7.03175" mMin="6.54835" type="GR" weight="0.0625"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -119.80903,38.66867,0.00000
@@ -5728,7 +5728,7 @@
     </Geometry>
   </Source>
   <Source id="108" name="Kings Canyon 50">
-    <IncrementalMfd floats="true" m="6.51" rate="0.00041117812" type="SINGLE" weight="0.15"/>
+    <IncrementalMfd floats="true" m="6.51" rate="0.00041117812" type="SINGLE" weight="0.1875"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -119.85691,39.11248,0.00000
@@ -5743,7 +5743,7 @@
     </Geometry>
   </Source>
   <Source id="108" name="Kings Canyon 65">
-    <IncrementalMfd floats="true" m="6.51" rate="0.00041117812" type="SINGLE" weight="0.05"/>
+    <IncrementalMfd floats="true" m="6.51" rate="0.00041117812" type="SINGLE" weight="0.0625"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -119.85691,39.11248,0.00000
@@ -5758,7 +5758,7 @@
     </Geometry>
   </Source>
   <Source id="108" name="Kings Canyon 35">
-    <IncrementalMfd floats="true" m="6.51" rate="0.00041117812" type="SINGLE" weight="0.05"/>
+    <IncrementalMfd floats="true" m="6.51" rate="0.00041117812" type="SINGLE" weight="0.0625"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -119.85691,39.11248,0.00000
@@ -11204,7 +11204,7 @@
     </Geometry>
   </Source>
   <Source id="262" name="Caballo TX 50">
-    <IncrementalMfd a="0.5333" dMag="0.1175" mMax="6.91135" mMin="6.55875" type="GR" weight="0.6"/>
+    <IncrementalMfd a="0.5333" dMag="0.1175" mMax="6.91135" mMin="6.55875" type="GR" weight="0.75"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -105.52715,31.09545,0.00000
@@ -11217,7 +11217,7 @@
     </Geometry>
   </Source>
   <Source id="262" name="Caballo TX 65">
-    <IncrementalMfd a="0.5333" dMag="0.1175" mMax="6.91135" mMin="6.55875" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.5333" dMag="0.1175" mMax="6.91135" mMin="6.55875" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -105.52715,31.09545,0.00000
@@ -11230,7 +11230,7 @@
     </Geometry>
   </Source>
   <Source id="262" name="Caballo TX 35">
-    <IncrementalMfd a="0.5333" dMag="0.1175" mMax="6.91135" mMin="6.55875" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.5333" dMag="0.1175" mMax="6.91135" mMin="6.55875" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -105.52715,31.09545,0.00000
@@ -11282,7 +11282,7 @@
     </Geometry>
   </Source>
   <Source id="258" name="Campo Grande 50">
-    <IncrementalMfd a="0.83122" dMag="0.125" mMax="6.9376" mMin="6.5625" type="GR" weight="0.6"/>
+    <IncrementalMfd a="0.83122" dMag="0.125" mMax="6.9376" mMin="6.5625" type="GR" weight="0.75"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -106.03350,31.49495,0.00000
@@ -11298,7 +11298,7 @@
     </Geometry>
   </Source>
   <Source id="258" name="Campo Grande 65">
-    <IncrementalMfd a="0.83122" dMag="0.125" mMax="6.9376" mMin="6.5625" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.83122" dMag="0.125" mMax="6.9376" mMin="6.5625" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -106.03350,31.49495,0.00000
@@ -11314,7 +11314,7 @@
     </Geometry>
   </Source>
   <Source id="258" name="Campo Grande 35">
-    <IncrementalMfd a="0.83122" dMag="0.125" mMax="6.9376" mMin="6.5625" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.83122" dMag="0.125" mMax="6.9376" mMin="6.5625" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -106.03350,31.49495,0.00000
@@ -11618,7 +11618,7 @@
     </Geometry>
   </Source>
   <Source id="265" name="East Baylor Mountain - Carizzo Mountain 50">
-    <IncrementalMfd a="0.03237" dMag="0.115" mMax="6.9026" mMin="6.5575" type="GR" weight="0.6"/>
+    <IncrementalMfd a="0.03237" dMag="0.115" mMax="6.9026" mMin="6.5575" type="GR" weight="0.75"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -104.90589,30.95180,0.00000
@@ -11634,7 +11634,7 @@
     </Geometry>
   </Source>
   <Source id="265" name="East Baylor Mountain - Carizzo Mountain 65">
-    <IncrementalMfd a="0.03237" dMag="0.115" mMax="6.9026" mMin="6.5575" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.03237" dMag="0.115" mMax="6.9026" mMin="6.5575" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -104.90589,30.95180,0.00000
@@ -11650,7 +11650,7 @@
     </Geometry>
   </Source>
   <Source id="265" name="East Baylor Mountain - Carizzo Mountain 35">
-    <IncrementalMfd a="0.03237" dMag="0.115" mMax="6.9026" mMin="6.5575" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.03237" dMag="0.115" mMax="6.9026" mMin="6.5575" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -104.90589,30.95180,0.00000
@@ -11753,7 +11753,7 @@
     </Geometry>
   </Source>
   <Source id="257" name="East Franklin Mountains 50">
-    <IncrementalMfd a="0.99155" dMag="0.0883" mMax="6.98595" mMin="6.54415" type="GR" weight="0.6"/>
+    <IncrementalMfd a="0.99155" dMag="0.0883" mMax="6.98595" mMin="6.54415" type="GR" weight="0.75"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -106.48792,31.60491,0.00000
@@ -11779,7 +11779,7 @@
     </Geometry>
   </Source>
   <Source id="257" name="East Franklin Mountains 65">
-    <IncrementalMfd a="0.99155" dMag="0.0883" mMax="6.98595" mMin="6.54415" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.99155" dMag="0.0883" mMax="6.98595" mMin="6.54415" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -106.48792,31.60491,0.00000
@@ -11805,7 +11805,7 @@
     </Geometry>
   </Source>
   <Source id="257" name="East Franklin Mountains 35">
-    <IncrementalMfd a="0.99155" dMag="0.0883" mMax="6.98595" mMin="6.54415" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.99155" dMag="0.0883" mMax="6.98595" mMin="6.54415" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -106.48792,31.60491,0.00000
@@ -11870,7 +11870,7 @@
     </Geometry>
   </Source>
   <Source id="263" name="East Sierra Diablo 50">
-    <IncrementalMfd a="0.39056" dMag="0.09" mMax="6.8151" mMin="6.545" type="GR" weight="0.6"/>
+    <IncrementalMfd a="0.39056" dMag="0.09" mMax="6.8151" mMin="6.545" type="GR" weight="0.75"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -104.87319,31.22410,0.00000
@@ -11888,7 +11888,7 @@
     </Geometry>
   </Source>
   <Source id="263" name="East Sierra Diablo 65">
-    <IncrementalMfd a="0.39056" dMag="0.09" mMax="6.8151" mMin="6.545" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.39056" dMag="0.09" mMax="6.8151" mMin="6.545" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -104.87319,31.22410,0.00000
@@ -11906,7 +11906,7 @@
     </Geometry>
   </Source>
   <Source id="263" name="East Sierra Diablo 35">
-    <IncrementalMfd a="0.39056" dMag="0.09" mMax="6.8151" mMin="6.545" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.39056" dMag="0.09" mMax="6.8151" mMin="6.545" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -104.87319,31.22410,0.00000
@@ -15149,7 +15149,7 @@
     </Geometry>
   </Source>
   <Source id="264" name="West Delaware Mountains 50">
-    <IncrementalMfd a="0.69021" mMax="6.6501" type="GR" weight="0.6"/>
+    <IncrementalMfd a="0.69021" mMax="6.6501" type="GR" weight="0.75"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -104.81956,31.66924,0.00000
@@ -15165,7 +15165,7 @@
     </Geometry>
   </Source>
   <Source id="264" name="West Delaware Mountains 65">
-    <IncrementalMfd a="0.69021" mMax="6.6501" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.69021" mMax="6.6501" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -104.81956,31.66924,0.00000
@@ -15181,7 +15181,7 @@
     </Geometry>
   </Source>
   <Source id="264" name="West Delaware Mountains 35">
-    <IncrementalMfd a="0.69021" mMax="6.6501" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.69021" mMax="6.6501" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -104.81956,31.66924,0.00000
@@ -15197,7 +15197,7 @@
     </Geometry>
   </Source>
   <Source id="266" name="West Eagle Mountains - Red Hills 50">
-    <IncrementalMfd a="0.41789" dMag="0.095" mMax="6.6426" mMin="6.5475" type="GR" weight="0.6"/>
+    <IncrementalMfd a="0.41789" dMag="0.095" mMax="6.6426" mMin="6.5475" type="GR" weight="0.75"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -105.26949,31.00319,0.00000
@@ -15210,7 +15210,7 @@
     </Geometry>
   </Source>
   <Source id="266" name="West Eagle Mountains - Red Hills 65">
-    <IncrementalMfd a="0.41789" dMag="0.095" mMax="6.6426" mMin="6.5475" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.41789" dMag="0.095" mMax="6.6426" mMin="6.5475" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -105.26949,31.00319,0.00000
@@ -15223,7 +15223,7 @@
     </Geometry>
   </Source>
   <Source id="266" name="West Eagle Mountains - Red Hills 35">
-    <IncrementalMfd a="0.41789" dMag="0.095" mMax="6.6426" mMin="6.5475" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.41789" dMag="0.095" mMax="6.6426" mMin="6.5475" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -105.26949,31.00319,0.00000
@@ -15236,7 +15236,7 @@
     </Geometry>
   </Source>
   <Source id="267" name="West Indio Mountains 50">
-    <IncrementalMfd a="0.93535" dMag="0.08" mMax="6.6201" mMin="6.54" type="GR" weight="0.6"/>
+    <IncrementalMfd a="0.93535" dMag="0.08" mMax="6.6201" mMin="6.54" type="GR" weight="0.75"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -105.13643,30.83789,0.00000
@@ -15250,7 +15250,7 @@
     </Geometry>
   </Source>
   <Source id="267" name="West Indio Mountains 65">
-    <IncrementalMfd a="0.93535" dMag="0.08" mMax="6.6201" mMin="6.54" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.93535" dMag="0.08" mMax="6.6201" mMin="6.54" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -105.13643,30.83789,0.00000
@@ -15264,7 +15264,7 @@
     </Geometry>
   </Source>
   <Source id="267" name="West Indio Mountains 35">
-    <IncrementalMfd a="0.93535" dMag="0.08" mMax="6.6201" mMin="6.54" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.93535" dMag="0.08" mMax="6.6201" mMin="6.54" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -105.13643,30.83789,0.00000
@@ -15278,7 +15278,7 @@
     </Geometry>
   </Source>
   <Source id="268" name="West Lobo Valley 50">
-    <IncrementalMfd a="0.57967" dMag="0.1083" mMax="7.09595" mMin="6.55415" type="GR" weight="0.6"/>
+    <IncrementalMfd a="0.57967" dMag="0.1083" mMax="7.09595" mMin="6.55415" type="GR" weight="0.75"/>
     <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58112">
       <Trace>
 -104.60492,30.46614,0.00000
@@ -15301,7 +15301,7 @@
     </Geometry>
   </Source>
   <Source id="268" name="West Lobo Valley 65">
-    <IncrementalMfd a="0.57967" dMag="0.1083" mMax="7.09595" mMin="6.55415" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.57967" dMag="0.1083" mMax="7.09595" mMin="6.55415" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55067">
       <Trace>
 -104.60492,30.46614,0.00000
@@ -15324,7 +15324,7 @@
     </Geometry>
   </Source>
   <Source id="268" name="West Lobo Valley 35">
-    <IncrementalMfd a="0.57967" dMag="0.1083" mMax="7.09595" mMin="6.55415" type="GR" weight="0.2"/>
+    <IncrementalMfd a="0.57967" dMag="0.1083" mMax="7.09595" mMin="6.55415" type="GR" weight="0.25"/>
     <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15172">
       <Trace>
 -104.60492,30.46614,0.00000
