@@ -901,7 +901,7 @@
   </Source>
   <Source id="3" name="Saddle Mountain">
     <IncrementalMfd a="0.61941" dMag="0.1062" mMax="7.297" mMin="6.5531" type="GR" weight="1.125"/>
-    <IncrementalMfd a="0.61941" dMag="0.1062" mMax="7.297" mMin="6.5531" type="GR" weight="0.375"/>
+    <IncrementalMfd a="1.54008" dMag="0.1062" mMax="7.297" mMin="6.5531" type="GR" weight="0.375"/>
     <Geometry depth="0.0" dip="60.0" rake="90.0" width="17.32051">
       <Trace>
 -120.29073,46.90812,0.00000
