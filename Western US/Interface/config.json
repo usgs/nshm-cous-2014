@@ -1,4 +1,6 @@
 {
-  "surfaceSpacing": 5.0,
-  "ruptureFloating": "STRIKE_ONLY"
+  "model": {
+    "surfaceSpacing": 5.0,
+    "ruptureFloating": "STRIKE_ONLY"
+  }
 }
