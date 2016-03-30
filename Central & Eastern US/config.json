@@ -1,12 +1,15 @@
 {
-  "name": "NSHMP Central & Eastern U.S. 2014",
-  "surfaceSpacing": 1.0,
-  "ruptureFloating": "NSHM",
-  "ruptureVariability": false,
-  "pointSourceType": "FINITE",
-  "areaGridScaling": "SCALED_SMALL",
-
-  "exceedanceModel": "NSHM_CEUS_MAX_INTENSITY",
-  "truncationLevel": 3.0,
-  "imts": ["PGA", "SA0P2", "SA1P0"]
+  "model": {
+    "name": "NSHMP Central & Eastern U.S. 2014",
+    "surfaceSpacing": 1.0,
+    "ruptureFloating": "NSHM",
+    "ruptureVariability": false,
+    "pointSourceType": "FINITE",
+    "areaGridScaling": "SCALED_SMALL"
+  },
+  "curve": {
+    "exceedanceModel": "NSHM_CEUS_MAX_INTENSITY",
+    "truncationLevel": 3.0,
+    "imts": ["PGA", "SA0P2", "SA1P0"]
+  }
 }
