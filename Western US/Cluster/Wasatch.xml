@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ClusterSourceSet id="-1" name="Wasatch" weight="0.8">
+<ClusterSourceSet id="-1" name="Wasatch" weight="0.192">
   <!-- This model is an example and for review purposes only -->
   <!-- Original source file: wasatch_slc.cluster.in -->
   <Settings>
@@ -8,11 +8,11 @@
     </DefaultMfds>
     <SourceProperties ruptureScaling="NSHM_FAULT_WC94_LENGTH"/>
   </Settings>
-  <Cluster id="-1" name="Wasatch: 50 Dip Model" weight="0.24">
+  <Cluster id="-1" name="Wasatch: 50 Dip Model" weight="0.6">
     <Source id="-1" name="North Section 50">
-      <IncrementalMfd m="6.03" type="SINGLE" weight="0.12"/>
-      <IncrementalMfd m="6.23" type="SINGLE" weight="0.36"/>
-      <IncrementalMfd m="6.43" type="SINGLE" weight="0.12"/>
+      <IncrementalMfd m="6.03" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="6.23" type="SINGLE" weight="0.6"/>
+      <IncrementalMfd m="6.43" type="SINGLE" weight="0.2"/>
       <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58">
         <Trace>
 -111.89552,40.84465,0.00000
@@ -93,9 +93,9 @@
       </Geometry>
     </Source>
     <Source id="-1" name="Tear Fault">
-      <IncrementalMfd m="4.2" type="SINGLE" weight="0.12"/>
-      <IncrementalMfd m="4.4" type="SINGLE" weight="0.36"/>
-      <IncrementalMfd m="4.6" type="SINGLE" weight="0.12"/>
+      <IncrementalMfd m="4.2" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="4.4" type="SINGLE" weight="0.6"/>
+      <IncrementalMfd m="4.6" type="SINGLE" weight="0.2"/>
       <Geometry depth="1.0" dip="90.0" rake="0.0" width="5.0">
         <Trace>
 -111.89132,40.76889,0.00000
@@ -125,9 +125,9 @@
       </Geometry>
     </Source>
     <Source id="-1" name="South Section 50">
-      <IncrementalMfd m="6.7" type="SINGLE" weight="0.12"/>
-      <IncrementalMfd m="6.9" type="SINGLE" weight="0.36"/>
-      <IncrementalMfd m="7.1" type="SINGLE" weight="0.12"/>
+      <IncrementalMfd m="6.7" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.6"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.2"/>
       <Geometry depth="0.0" dip="50.0" rake="-90.0" width="19.58">
         <Trace>
 -111.84132,40.77498,0.00000
@@ -320,11 +320,11 @@
       </Geometry>
     </Source>
   </Cluster>
-  <Cluster id="-1" name="Wasatch: 35 Dip Model" weight="0.24">
+  <Cluster id="-1" name="Wasatch: 35 Dip Model" weight="0.2">
     <Source id="-1" name="North Section 35">
-      <IncrementalMfd m="6.03" type="SINGLE" weight="0.04"/>
-      <IncrementalMfd m="6.23" type="SINGLE" weight="0.12"/>
-      <IncrementalMfd m="6.43" type="SINGLE" weight="0.04"/>
+      <IncrementalMfd m="6.03" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="6.23" type="SINGLE" weight="0.6"/>
+      <IncrementalMfd m="6.43" type="SINGLE" weight="0.2"/>
       <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15">
         <Trace>
 -111.89552,40.84465,0.00000
@@ -405,9 +405,9 @@
       </Geometry>
     </Source>
     <Source id="-1" name="Tear Fault">
-      <IncrementalMfd m="4.2" type="SINGLE" weight="0.04"/>
-      <IncrementalMfd m="4.4" type="SINGLE" weight="0.12"/>
-      <IncrementalMfd m="4.6" type="SINGLE" weight="0.04"/>
+      <IncrementalMfd m="4.2" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="4.4" type="SINGLE" weight="0.6"/>
+      <IncrementalMfd m="4.6" type="SINGLE" weight="0.2"/>
       <Geometry depth="1.0" dip="90.0" rake="0.0" width="5.0">
         <Trace>
 -111.89132,40.76889,0.00000
@@ -437,9 +437,9 @@
       </Geometry>
     </Source>
     <Source id="-1" name="South Section 35">
-      <IncrementalMfd m="6.7" type="SINGLE" weight="0.04"/>
-      <IncrementalMfd m="6.9" type="SINGLE" weight="0.12"/>
-      <IncrementalMfd m="7.1" type="SINGLE" weight="0.04"/>
+      <IncrementalMfd m="6.7" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.6"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.2"/>
       <Geometry depth="0.0" dip="35.0" rake="-90.0" width="26.15">
         <Trace>
 -111.84132,40.77498,0.00000
@@ -632,11 +632,11 @@
       </Geometry>
     </Source>
   </Cluster>
-  <Cluster id="-1" name="Wasatch: 65 Dip Model" weight="0.24">
+  <Cluster id="-1" name="Wasatch: 65 Dip Model" weight="0.2">
     <Source id="-1" name="North Section 65">
-      <IncrementalMfd m="6.03" type="SINGLE" weight="0.04"/>
-      <IncrementalMfd m="6.23" type="SINGLE" weight="0.12"/>
-      <IncrementalMfd m="6.43" type="SINGLE" weight="0.04"/>
+      <IncrementalMfd m="6.03" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="6.23" type="SINGLE" weight="0.6"/>
+      <IncrementalMfd m="6.43" type="SINGLE" weight="0.2"/>
       <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55">
         <Trace>
 -111.89552,40.84465,0.00000
@@ -717,9 +717,9 @@
       </Geometry>
     </Source>
     <Source id="-1" name="Tear Fault">
-      <IncrementalMfd m="4.2" type="SINGLE" weight="0.04"/>
-      <IncrementalMfd m="4.4" type="SINGLE" weight="0.12"/>
-      <IncrementalMfd m="4.6" type="SINGLE" weight="0.04"/>
+      <IncrementalMfd m="4.2" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="4.4" type="SINGLE" weight="0.6"/>
+      <IncrementalMfd m="4.6" type="SINGLE" weight="0.2"/>
       <Geometry depth="1.0" dip="90.0" rake="0.0" width="5.0">
         <Trace>
 -111.89132,40.76889,0.00000
@@ -749,9 +749,9 @@
       </Geometry>
     </Source>
     <Source id="-1" name="South Section 65">
-      <IncrementalMfd m="6.7" type="SINGLE" weight="0.04"/>
-      <IncrementalMfd m="6.9" type="SINGLE" weight="0.12"/>
-      <IncrementalMfd m="7.1" type="SINGLE" weight="0.04"/>
+      <IncrementalMfd m="6.7" type="SINGLE" weight="0.2"/>
+      <IncrementalMfd m="6.9" type="SINGLE" weight="0.6"/>
+      <IncrementalMfd m="7.1" type="SINGLE" weight="0.2"/>
       <Geometry depth="0.0" dip="65.0" rake="-90.0" width="16.55">
         <Trace>
 -111.84132,40.77498,0.00000
