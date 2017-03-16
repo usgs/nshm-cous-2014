@@ -8,7 +8,7 @@
     "areaGridScaling": "SCALED_SMALL"
   },
   "curve": {
-    "exceedanceModel": "TRUNCATION_UPPER_ONLY",
+    "exceedanceModel": "TRUNCATION_3SIGMA_UPPER",
     "truncationLevel": 3.0,
     "imts": ["PGA", "SA0P2", "SA1P0"],
     "gmmUncertainty": true
