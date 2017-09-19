@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "measurementType": {},
+  "agency": "U.S. Department of Interior",
+  "releases": [
+    {
+      "name": "nshm-cous-2014",
+      "description": "National Seismic Hazard Model (NSHM): Conterminous U.S. 2008",
+      "version": "4.1.0",
+      "status": "Production",
+      "organization": "U.S. Geological Survey",
+      "vcs": "git",
+      "repositoryURL": "https://github.com/usgs/nshm-cous-2014",
+      "homepageURL": "https://github.com/usgs/nshmp-haz/wiki",
+      "downloadURL": "https://github.com/usgs/nshm-cous-2014/releases/tag/v4.1.0",
+      "disclaimerURL": "https://github.com/usgs/nshm-cous-2014/blob/master/DISCLAIMER.md",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "Public Domain",
+            "URL": "https://github.com/usgs/nshm-cous-2014/blob/master/LICENSE.md"
+          }
+        ],
+        "usageType": "openSource",
+        "exemptionText": null
+      },
+      "laborHours": 1000,
+      "languages": [ "XML" ],
+      "tags": [
+        "psha",
+        "nshmp-haz",
+        "seismic-hazard",
+        "seismic-source",
+        "earthquake-hazard",
+        "earthquake-source",
+        "earthquake-source-characterization"
+      ],
+      "contact": {
+        "name": "Peter Powers",
+        "email": "pmpowers@usgs.gov"
+      },
+      "date": {
+        "metadataLastUpdated": "2017-09-18"
+      }
+    }
+  ]
+}
