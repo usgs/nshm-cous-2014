@@ -2,9 +2,9 @@
 <GroundMotionModels>
   <!-- This model is an example and for review purposes only -->
   <ModelSet maxDistance="1000.0">
-    <Model id="AB_03_GLOB_INTER" weight="0.1"/>
-    <Model id="AM_09_INTER" weight="0.3"/>
-    <Model id="BCHYDRO_12_INTER" weight="0.3"/>
-    <Model id="ZHAO_06_INTER" weight="0.3"/>
+    <Model id="AB_03_GLOBAL_INTERFACE" weight="0.1"/>
+    <Model id="AM_09_INTERFACE" weight="0.3"/>
+    <Model id="BCHYDRO_12_INTERFACE" weight="0.3"/>
+    <Model id="ZHAO_06_INTERFACE" weight="0.3"/>
   </ModelSet>
 </GroundMotionModels>
