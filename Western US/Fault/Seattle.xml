@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FaultSourceSet id="-1" name="Seattle" weight="1.0">
+  <!-- This model is an example and for review purposes only -->
+  <!-- Original source file: 2014WUSgeo.char.in -->
+  <Settings>
+    <DefaultMfds>
+      <IncrementalMfd floats="false" m="6.5" rate="0.0" type="SINGLE" weight="0.5"/>
+      <IncrementalMfd a="0.0" b="0.8" dMag="0.1" mMax="7.5" mMin="6.55" type="GR" weight="0.5"/>
+    </DefaultMfds>
+    <MagUncertainty>
+      <Epistemic cutoff="6.5" deltas="[-0.2, 0.0, 0.2]" weights="[0.2, 0.6, 0.2]"/>
+      <Aleatory count="11" cutoff="6.5" moBalance="true" sigma="0.12"/>
+    </MagUncertainty>
+    <SourceProperties ruptureScaling="NSHM_FAULT_WC94_LENGTH"/>
+  </Settings>
+  <Source id="183" name="Seattle - northern">
+    <IncrementalMfd m="7.2" rate="0.0002" type="SINGLE"/>
+    <IncrementalMfd a="1.15" mMax="7.1501" type="GR"/>
+    <Geometry depth="0.0" dip="45.0" rake="90.0" width="21.21322">
+      <Trace>
+-122.86264,47.59311,0.00000
+-122.80299,47.60398,0.00000
+-122.69454,47.60910,0.00000
+-122.59706,47.62159,0.00000
+-122.46589,47.60480,0.00000
+-122.44064,47.58387,0.00000
+-122.40300,47.58261,0.00000
+-122.34748,47.57407,0.00000
+-122.30561,47.57767,0.00000
+-122.26150,47.57255,0.00000
+-122.17085,47.58405,0.00000
+-122.03564,47.58009,0.00000
+-121.98811,47.58917,0.00000
+-121.96224,47.58773,0.00000
+-121.94643,47.58288,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="182" name="Seattle - middle">
+    <IncrementalMfd m="7.2" rate="1.0000000e-07" type="SINGLE"/>
+    <IncrementalMfd a="1.11" mMax="7.1501" type="GR"/>
+    <Geometry depth="0.0" dip="45.0" rake="90.0" width="21.21322">
+      <Trace>
+-122.84099,47.59212,0.00000
+-122.78654,47.59913,0.00000
+-122.68295,47.60273,0.00000
+-122.50057,47.59366,0.00000
+-122.45035,47.58845,0.00000
+-122.43660,47.56113,0.00000
+-122.38117,47.55709,0.00000
+-122.22170,47.55530,0.00000
+-122.12377,47.53104,0.00000
+-122.09062,47.52727,0.00000
+-122.04786,47.52763,0.00000
+-122.02369,47.53302,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+  <Source id="184" name="Seattle - southern">
+    <IncrementalMfd m="7.1" rate="1.0000000e-07" type="SINGLE"/>
+    <IncrementalMfd a="1.16" mMax="7.0501" type="GR"/>
+    <Geometry depth="0.0" dip="45.0" rake="90.0" width="21.21322">
+      <Trace>
+-122.83901,47.55448,0.00000
+-122.76777,47.55898,0.00000
+-122.75950,47.57029,0.00000
+-122.68574,47.55826,0.00000
+-122.63704,47.56086,0.00000
+-122.53812,47.55718,0.00000
+-122.40714,47.54496,0.00000
+-122.34756,47.51846,0.00000
+-122.33526,47.51631,0.00000
+-122.29950,47.51819,0.00000
+-122.26653,47.53167,0.00000
+-122.23418,47.53751,0.00000
+-122.20310,47.53311,0.00000
+-122.13743,47.51397,0.00000
+</Trace>
+    </Geometry>
+  </Source>
+</FaultSourceSet>
