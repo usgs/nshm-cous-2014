@@ -2,10 +2,9 @@
 <GroundMotionModels>
   <!-- This model is an example and for review purposes only -->
   <ModelSet maxDistance="300.0">
-    <Model id="ASK_14" weight="0.22"/>
-    <Model id="BSSA_14" weight="0.22"/>
-    <Model id="CB_14" weight="0.22"/>
-    <Model id="CY_14" weight="0.22"/>
-    <Model id="IDRISS_14" weight="0.12"/>
+    <Model id="ASK_14" weight="0.25"/>
+    <Model id="BSSA_14" weight="0.25"/>
+    <Model id="CB_14" weight="0.25"/>
+    <Model id="CY_14" weight="0.25"/>
   </ModelSet>
 </GroundMotionModels>
