@@ -2,9 +2,7 @@
 <GroundMotionModels>
   <!-- This model is an example and for review purposes only -->
   <ModelSet maxDistance="300.0">
-    <Model id="AB_03_GLOBAL_SLAB_LOW_SAT" weight="0.1665"/>
-    <Model id="AB_03_CASCADIA_SLAB_LOW_SAT" weight="0.1665"/>
-    <Model id="BCHYDRO_12_SLAB" weight="0.333"/>
-    <Model id="ZHAO_06_SLAB" weight="0.334"/>
+    <Model id="BCHYDRO_12_SLAB" weight="0.5"/>
+    <Model id="ZHAO_06_SLAB" weight="0.5"/>
   </ModelSet>
 </GroundMotionModels>
