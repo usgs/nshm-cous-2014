@@ -12,5 +12,8 @@
     "truncationLevel": 3.0,
     "imts": ["PGA", "SA0P2", "SA1P0"],
     "gmmUncertainty": true
+  },
+  "performance": {
+    "smoothGrids": false
   }
 }
