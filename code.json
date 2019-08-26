@@ -5,7 +5,7 @@
   "releases": [
     {
       "name": "nshm-cous-2014",
-      "description": "National Seismic Hazard Model (NSHM): Conterminous U.S. 2008",
+      "description": "National Seismic Hazard Model (NSHM): Conterminous U.S. 2014",
       "version": "4.1.0",
       "status": "Production",
       "organization": "U.S. Geological Survey",
@@ -40,7 +40,7 @@
         "email": "pmpowers@usgs.gov"
       },
       "date": {
-        "metadataLastUpdated": "2017-09-18"
+        "metadataLastUpdated": "2018-04-18"
       }
     }
   ]

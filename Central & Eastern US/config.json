@@ -8,8 +8,11 @@
     "areaGridScaling": "SCALED_SMALL"
   },
   "hazard": {
-    "exceedanceModel": "NSHM_CEUS_MAX_INTENSITY",
+    "exceedanceModel": "NSHM_CEUS_3SIGMA_MAX_INTENSITY",
     "truncationLevel": 3.0,
     "imts": ["PGA", "SA0P2", "SA1P0"]
+  },
+  "performance": {
+    "smoothGrids": false
   }
 }
